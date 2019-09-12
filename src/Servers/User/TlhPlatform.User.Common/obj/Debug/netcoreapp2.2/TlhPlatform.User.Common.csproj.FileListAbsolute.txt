@@ -1,0 +1,8 @@
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\bin\Debug\netcoreapp2.2\TlhPlatform.User.Common.deps.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\bin\Debug\netcoreapp2.2\TlhPlatform.User.Common.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\bin\Debug\netcoreapp2.2\TlhPlatform.User.Common.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.csproj.CoreCompileInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.AssemblyInfoInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.AssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.pdb

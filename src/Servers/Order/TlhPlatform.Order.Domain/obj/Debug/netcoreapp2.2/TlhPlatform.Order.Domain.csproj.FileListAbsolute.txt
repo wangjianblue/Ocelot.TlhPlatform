@@ -1,0 +1,17 @@
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.deps.json
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.csproj.CoreCompileInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfoInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfo.cs
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.csprojAssemblyReference.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.deps.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfoInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.csproj.CoreCompileInputs.cache

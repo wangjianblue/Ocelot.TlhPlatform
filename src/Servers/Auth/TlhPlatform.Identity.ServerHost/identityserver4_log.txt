@@ -1,0 +1,76 @@
+2019-09-10 16:24:14.239 +08:00 [INF] Starting IdentityServer4 version 2.5.0.0
+2019-09-10 16:24:14.316 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-09-10 16:24:14.330 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-09-10 16:24:14.332 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-09-10 16:24:14.332 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-09-10 16:24:14.333 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-09-10 16:24:14.337 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-09-10 16:24:14.643 +08:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2019-09-10 16:24:15.767 +08:00 [WRN] Query: '(from IdentityExpressUser <generated>_1 in DbSet<IdentityExpressUser> select [<generated>_1]).FirstO...' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2019-09-10 16:24:42.413 +08:00 [DBG] Login Url: /Account/Login
+2019-09-10 16:24:42.414 +08:00 [DBG] Login Return Url Parameter: returnUrl
+2019-09-10 16:24:42.415 +08:00 [DBG] Logout Url: /Account/Logout
+2019-09-10 16:24:42.416 +08:00 [DBG] ConsentUrl Url: /consent
+2019-09-10 16:24:42.416 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-09-10 16:24:42.417 +08:00 [DBG] Error Url: /home/error
+2019-09-10 16:24:42.417 +08:00 [DBG] Error Id Parameter: errorId
+2019-09-10 16:25:00.699 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-09-10 16:25:05.139 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-09-10 16:25:20.004 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2019-09-10 16:25:22.603 +08:00 [INF] AuthenticationScheme: Google was challenged.
+2019-09-10 16:27:40.180 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-09-10 16:27:40.186 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-09-10 16:27:40.187 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-09-10 16:27:40.194 +08:00 [DBG] Start discovery request
+2019-09-10 16:27:40.430 +08:00 [DBG] Found ["openid","profile","admin_ui_profile","admin_ui_public","admin_api","admin_ui_webhooks"] as all scopes in database
+2019-09-10 16:27:55.026 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2019-09-11 10:56:30.131 +08:00 [INF] Starting IdentityServer4 version 2.5.0.0
+2019-09-11 10:56:30.215 +08:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-09-11 10:56:30.217 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-09-11 10:56:30.219 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-09-11 10:56:30.219 +08:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-09-11 10:56:30.221 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-09-11 10:56:30.223 +08:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-09-11 10:56:30.487 +08:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2019-09-11 10:56:30.996 +08:00 [WRN] Query: '(from IdentityExpressUser <generated>_1 in DbSet<IdentityExpressUser> select [<generated>_1]).FirstO...' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+2019-09-11 10:57:13.156 +08:00 [DBG] Login Url: /Account/Login
+2019-09-11 10:57:13.157 +08:00 [DBG] Login Return Url Parameter: returnUrl
+2019-09-11 10:57:13.160 +08:00 [DBG] Logout Url: /Account/Logout
+2019-09-11 10:57:13.161 +08:00 [DBG] ConsentUrl Url: /consent
+2019-09-11 10:57:13.162 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-09-11 10:57:13.163 +08:00 [DBG] Error Url: /home/error
+2019-09-11 10:57:13.164 +08:00 [DBG] Error Id Parameter: errorId
+2019-09-11 10:57:16.022 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2019-09-11 11:02:29.967 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-11 11:02:29.980 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-11 11:02:29.982 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-11 11:02:29.991 +08:00 [DBG] Start token request.
+2019-09-11 11:02:29.999 +08:00 [DBG] Start client validation
+2019-09-11 11:02:30.008 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-09-11 11:02:30.014 +08:00 [DBG] Start parsing for secret in post body
+2019-09-11 11:02:30.042 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-11 11:02:30.042 +08:00 [DBG] Secret id found: client
+2019-09-11 11:02:30.142 +08:00 [DBG] client found in database: false
+2019-09-11 11:02:30.165 +08:00 [ERR] No client with id 'client' found. aborting
+2019-09-11 11:03:33.647 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-11 11:03:33.655 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-11 11:03:33.661 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-11 11:03:33.667 +08:00 [DBG] Start token request.
+2019-09-11 11:03:33.675 +08:00 [DBG] Start client validation
+2019-09-11 11:03:33.677 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-09-11 11:03:33.678 +08:00 [DBG] Start parsing for secret in post body
+2019-09-11 11:03:33.680 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-11 11:03:33.681 +08:00 [DBG] Secret id found: client
+2019-09-11 11:03:33.686 +08:00 [DBG] client found in database: false
+2019-09-11 11:03:33.687 +08:00 [ERR] No client with id 'client' found. aborting
+2019-09-11 11:04:20.021 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-09-11 11:04:20.044 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-09-11 11:04:20.046 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-09-11 11:04:20.048 +08:00 [DBG] Start token request.
+2019-09-11 11:04:20.049 +08:00 [DBG] Start client validation
+2019-09-11 11:04:20.049 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-09-11 11:04:20.050 +08:00 [DBG] Start parsing for secret in post body
+2019-09-11 11:04:20.051 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-09-11 11:04:20.052 +08:00 [DBG] Secret id found: client
+2019-09-11 11:04:20.056 +08:00 [DBG] client found in database: false
+2019-09-11 11:04:20.057 +08:00 [ERR] No client with id 'client' found. aborting

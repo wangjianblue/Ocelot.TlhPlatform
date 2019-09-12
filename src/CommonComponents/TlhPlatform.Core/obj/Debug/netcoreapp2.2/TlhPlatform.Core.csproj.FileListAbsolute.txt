@@ -1,0 +1,17 @@
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\bin\Debug\netcoreapp2.2\TlhPlatform.Core.deps.json
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\bin\Debug\netcoreapp2.2\TlhPlatform.Core.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\bin\Debug\netcoreapp2.2\TlhPlatform.Core.pdb
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.csproj.CoreCompileInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.AssemblyInfoInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.AssemblyInfo.cs
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.pdb
+D:\projects\dotnet\Surging.TlhPlatformV1\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.csprojAssemblyReference.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\bin\Debug\netcoreapp2.2\TlhPlatform.Core.deps.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\bin\Debug\netcoreapp2.2\TlhPlatform.Core.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\bin\Debug\netcoreapp2.2\TlhPlatform.Core.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.AssemblyInfoInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.AssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.csproj.CoreCompileInputs.cache

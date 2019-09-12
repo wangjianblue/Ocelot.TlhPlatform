@@ -1,0 +1,9 @@
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Common.deps.json
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Common.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Common.pdb
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.csproj.CoreCompileInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.AssemblyInfoInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.AssemblyInfo.cs
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.pdb
+D:\projects\dotnet\Surging.TlhPlatformV1\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.deps.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.runtimeconfig.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.runtimeconfig.dev.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.csproj.CoreCompileInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.RazorAssemblyInfo.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.RazorAssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.AssemblyInfoInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.AssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.RazorTargetAssemblyInfo.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.OrderApi.csprojAssemblyReference.cache

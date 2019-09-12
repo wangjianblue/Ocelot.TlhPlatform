@@ -1,0 +1,16 @@
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.deps.json
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.pdb
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.csproj.CoreCompileInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.AssemblyInfoInputs.cache
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.AssemblyInfo.cs
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.dll
+D:\projects\dotnet\Surging.TlhPlatformV1\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.deps.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.csproj.CoreCompileInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.AssemblyInfoInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.AssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Application.pdb

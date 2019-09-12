@@ -1,0 +1,13 @@
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorAssemblyInfo.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorAssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.AssemblyInfoInputs.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.AssemblyInfo.cs
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.deps.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.runtimeconfig.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.runtimeconfig.dev.json
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorTargetAssemblyInfo.cache
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.dll
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.pdb
+D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.csproj.CoreCompileInputs.cache
