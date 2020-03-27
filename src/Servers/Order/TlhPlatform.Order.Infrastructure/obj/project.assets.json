@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Infrastructure\\TlhPlatform.Order.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Infrastructure\\TlhPlatform.Order.Infrastructure.csproj",
       "projectName": "TlhPlatform.Order.Infrastructure",
-      "projectPath": "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Infrastructure\\TlhPlatform.Order.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Infrastructure\\TlhPlatform.Order.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -726,15 +726,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\projects\\dotnet\\欧一\\TlhPlatformV4.1\\00_ReferenceLib\\Syncfusion": {},
-        "D:\\欧一软件公司\\NewVOCs\\VOCs\\03_Code\\00_SourceCode\\TlhPlatformV2\\00_ReferenceLib\\Telerik": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Domain\\TlhPlatform.Order.Domain.csproj": {
-              "projectPath": "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Domain\\TlhPlatform.Order.Domain.csproj"
+            "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Domain\\TlhPlatform.Order.Domain.csproj": {
+              "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Order\\TlhPlatform.Order.Domain\\TlhPlatform.Order.Domain.csproj"
             }
           }
         }
@@ -756,10 +754,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

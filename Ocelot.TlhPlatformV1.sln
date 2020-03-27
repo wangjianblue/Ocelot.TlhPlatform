@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1729B8DE-5B7B-4178-B5EA-6F70C472CC6D}"
 EndProject
@@ -49,7 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Gateway.OrderAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Identity.ServerHost", "src\Servers\Auth\TlhPlatform.Identity.ServerHost\TlhPlatform.Identity.ServerHost.csproj", "{49B659E3-CD1D-4369-9BA9-F0D0DA0182B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlhPlatform.Contracts", "src\CommonComponents\TlhPlatform.Contracts\TlhPlatform.Contracts.csproj", "{760ABF81-6B9A-4FBC-8C37-CF5DB39D8DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Contracts", "src\CommonComponents\TlhPlatform.Contracts\TlhPlatform.Contracts.csproj", "{760ABF81-6B9A-4FBC-8C37-CF5DB39D8DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{31EF9BEB-CA5B-4BD5-A773-0EC810036845}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Product.Domain", "src\Servers\Product\TlhPlatform.Product.Domain\TlhPlatform.Product.Domain.csproj", "{0D4988BA-489F-41F1-82AB-04BE3A15CBF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Product.Infrastructure", "src\Servers\Product\TlhPlatform.Product.Infrastructure\TlhPlatform.Product.Infrastructure.csproj", "{22D2ED7F-BD6D-4D8F-8BAC-8976739058EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Product.ServerHost", "src\Servers\Product\TlhPlatform.Product.ServerHost\TlhPlatform.Product.ServerHost.csproj", "{FB9A97F7-6ED0-4E4E-AAC5-CA5BB6B10F5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +133,18 @@ Global
 		{760ABF81-6B9A-4FBC-8C37-CF5DB39D8DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{760ABF81-6B9A-4FBC-8C37-CF5DB39D8DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760ABF81-6B9A-4FBC-8C37-CF5DB39D8DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4988BA-489F-41F1-82AB-04BE3A15CBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4988BA-489F-41F1-82AB-04BE3A15CBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4988BA-489F-41F1-82AB-04BE3A15CBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4988BA-489F-41F1-82AB-04BE3A15CBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D2ED7F-BD6D-4D8F-8BAC-8976739058EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D2ED7F-BD6D-4D8F-8BAC-8976739058EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D2ED7F-BD6D-4D8F-8BAC-8976739058EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D2ED7F-BD6D-4D8F-8BAC-8976739058EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9A97F7-6ED0-4E4E-AAC5-CA5BB6B10F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9A97F7-6ED0-4E4E-AAC5-CA5BB6B10F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9A97F7-6ED0-4E4E-AAC5-CA5BB6B10F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9A97F7-6ED0-4E4E-AAC5-CA5BB6B10F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +173,10 @@ Global
 		{44438E6C-70EE-4A1E-86EB-FBCAFDABC82C} = {1729B8DE-5B7B-4178-B5EA-6F70C472CC6D}
 		{49B659E3-CD1D-4369-9BA9-F0D0DA0182B5} = {AA2119E9-DED7-4AF5-9F3F-5761372EB7E2}
 		{760ABF81-6B9A-4FBC-8C37-CF5DB39D8DB8} = {9B2A2951-1CAB-41E0-A2B0-F9BD008754ED}
+		{31EF9BEB-CA5B-4BD5-A773-0EC810036845} = {9CD68436-95AC-4C46-90C6-3A34EBEA5013}
+		{0D4988BA-489F-41F1-82AB-04BE3A15CBF2} = {31EF9BEB-CA5B-4BD5-A773-0EC810036845}
+		{22D2ED7F-BD6D-4D8F-8BAC-8976739058EA} = {31EF9BEB-CA5B-4BD5-A773-0EC810036845}
+		{FB9A97F7-6ED0-4E4E-AAC5-CA5BB6B10F5E} = {31EF9BEB-CA5B-4BD5-A773-0EC810036845}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26261CFB-B568-4B11-8EB4-17AC2F0A8589}

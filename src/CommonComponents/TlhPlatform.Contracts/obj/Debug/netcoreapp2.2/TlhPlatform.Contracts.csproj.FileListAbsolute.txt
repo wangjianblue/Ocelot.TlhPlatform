@@ -6,3 +6,11 @@ D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contrac
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\bin\Debug\netcoreapp2.2\TlhPlatform.Contracts.pdb
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp2.2\TlhPlatform.Contracts.dll
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp2.2\TlhPlatform.Contracts.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\bin\Debug\netcoreapp2.2\TlhPlatform.Contracts.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\bin\Debug\netcoreapp2.2\TlhPlatform.Contracts.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\bin\Debug\netcoreapp2.2\TlhPlatform.Contracts.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp2.2\TlhPlatform.Contracts.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp2.2\TlhPlatform.Contracts.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp2.2\TlhPlatform.Contracts.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp2.2\TlhPlatform.Contracts.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp2.2\TlhPlatform.Contracts.pdb

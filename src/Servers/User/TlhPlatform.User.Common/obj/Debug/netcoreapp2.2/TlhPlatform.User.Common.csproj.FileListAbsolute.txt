@@ -6,3 +6,10 @@ D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.AssemblyInfo.cs
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.dll
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\bin\Debug\netcoreapp2.2\TlhPlatform.User.Common.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\bin\Debug\netcoreapp2.2\TlhPlatform.User.Common.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\bin\Debug\netcoreapp2.2\TlhPlatform.User.Common.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Common\obj\Debug\netcoreapp2.2\TlhPlatform.User.Common.pdb

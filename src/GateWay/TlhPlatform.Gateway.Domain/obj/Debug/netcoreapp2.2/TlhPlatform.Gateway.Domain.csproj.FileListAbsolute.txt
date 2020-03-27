@@ -15,3 +15,10 @@ D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\o
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.AssemblyInfo.cs
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.dll
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Gateway.Domain.pdb

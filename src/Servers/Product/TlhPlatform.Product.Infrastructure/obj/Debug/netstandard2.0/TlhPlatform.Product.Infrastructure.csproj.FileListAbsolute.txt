@@ -1,0 +1,16 @@
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV22\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.pdb

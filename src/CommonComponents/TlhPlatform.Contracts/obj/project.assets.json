@@ -2927,12 +2927,11 @@
       ]
     },
     "runtime.native.System.Net.Security/4.3.0": {
-      "sha512": "M2nN92ePS8BgQ2oi6Jj3PlTUzadYSIWLdZrHY1n1ZcW9o4wAQQ6W+aQ2lfq1ysZQfVCgDwY58alUdowrzezztg==",
+      "sha512": "ARfgeRYF2AnYIcqEvy9VE0agN/3zexMMPtcegq1THpOMS63rIGMi706vCo6pbv9Xzw4qhdX1Gu1zyLZHj2WtLA==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -5521,7 +5520,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -6111,11 +6110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
       "projectName": "TlhPlatform.Contracts",
-      "projectPath": "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
+      "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
       "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\dotnet\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\obj\\",
+      "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6129,8 +6128,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\projects\\dotnet\\欧一\\TlhPlatformV4.1\\00_ReferenceLib\\Syncfusion": {},
-        "D:\\欧一软件公司\\NewVOCs\\VOCs\\03_Code\\00_SourceCode\\TlhPlatformV2\\00_ReferenceLib\\Telerik": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6159,10 +6156,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

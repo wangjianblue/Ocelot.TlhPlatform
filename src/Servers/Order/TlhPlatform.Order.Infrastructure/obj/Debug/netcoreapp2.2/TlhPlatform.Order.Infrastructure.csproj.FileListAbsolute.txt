@@ -22,3 +22,14 @@ D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infr
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.dll
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.pdb
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.csproj.CopyComplete
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Infrastructure.pdb

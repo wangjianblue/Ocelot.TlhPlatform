@@ -15,3 +15,11 @@ D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Doma
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
