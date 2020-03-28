@@ -12,4 +12,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgExceptionless Condition=" '$(PkgExceptionless)' == '' ">C:\Users\andy\.nuget\packages\exceptionless\4.3.2027</PkgExceptionless>
+  </PropertyGroup>
 </Project>

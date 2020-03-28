@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SmartSql.DyRepository" Version="4.1.52" />
+    <PackageReference Include="SmartSql.ScriptTag" Version="4.1.52" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="SmartSql.Schema" Version="4.0.65" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TlhPlatform.Product.Domain\TlhPlatform.Product.Domain.csproj" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <None Update="Maps\TodoItem.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SmartSqlMapConfig.Development.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SmartSqlMapConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -14,3 +14,6 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.AssemblyInfo.cs
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.csproj.CopyComplete

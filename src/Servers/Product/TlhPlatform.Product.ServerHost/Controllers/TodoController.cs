@@ -2,33 +2,38 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
+using TlhPlatform.Product.Application;
+using TlhPlatform.Product.Application.Interfaces;
 using TlhPlatform.Product.Domain.TodoI;
+using TlhPlatform.Product.Repository;
+using TlhPlatform.Product.ServerHost.Configs.Cache;
+using WebApplication1.Models.Cache;
+using IKeyManager = TlhPlatform.Infrastructure.Cache.Key.IKeyManager;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TlhPlatform.Product.ServerHost.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]/[action]")]
     [ApiController]//添加特性，代表是一个Web API控制器类
     public class TodoController : Controller
     {
-        private IEnumerable<TodoItem> TodoItems = null;
+      
+        public readonly Infrastructure.Cache.Key.IKeyManager KeyManager;
+        public readonly ITodoItemService _TodoItemService;
 
         /// <summary>
         /// 实例化一个EF上下文，进行数据库操作。开始初始入库一条数据
         /// </summary>
         /// <param name="context"></param>
-        public TodoController()
+        /// <param name="keyManager"></param>
+        /// <param name="todoItemService"></param>
+        public TodoController(ITodoItemService todoItemService, IKeyManager keyManager)
         {
-            TodoItems = new List<TodoItem>()
-            {
-                 new TodoItem(){Id=1,IsComplete = true,Name = "张三"},
-                 new TodoItem(){Id=2,IsComplete = true,Name = "李四"},
-                 new TodoItem(){Id=3,IsComplete = false,Name = "王五"},
-                 new TodoItem(){Id=4,IsComplete = false,Name = "赵柳"},
-                 new TodoItem(){Id=5,IsComplete = true,Name = "哦哦"}
-            };
+            _TodoItemService = todoItemService;
+            KeyManager = keyManager;
         }
         /// <summary>
         /// 获取所有事项
@@ -36,19 +41,43 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
+        public async Task<IEnumerable<TodoItem>> GetTodoItems()
         {
-            return await Task.Run(() => TodoItems.ToList()) ;
+
+             var key = KeyManager.Get(name: ProductKey.Admin_User_Session);
+
+            // return await TodoItemService.GeTodoItems();
+
+            return null;
         }
 
-
         /// <summary>
-        /// 根据id，获取一条事项
-        /// GET: api/Todo/5。  id 是参数，代表路由合并
+        /// 删除一个TodoItem
         /// </summary>
+        /// <remarks>
+        ///  Sample request:
+        ///  DELETE: api/Todo/2
+        /// </remarks>
         /// <param name="id"></param>
-        /// <returns></returns>
-        ///[HttpGet("{id}")]
+        /// <returns>不返回内容</returns>
+        /// <response code="204">删除成功，不返回内容</response>
+        /// <response code="404">删除失败，未找到该记录</response>
+        [HttpDelete("{id}", Name = "DeleteTodoItem")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public async Task<TodoItem> DeleteTodoItem(long id)
+        {
+            return await _TodoItemService.GetByIdAsync(id);
+
+             
+        }
+        ///// <summary>
+        ///// 根据id，获取一条事项
+        ///// GET: api/Todo/5。  id 是参数，代表路由合并
+        ///// </summary>
+        ///// <param name="id"></param>
+        ///// <returns></returns>
+        /////[HttpGet("{id}")]
         //public async Task<ActionResult<TodoItem>> GetTodoItem(long id)
         //{
 

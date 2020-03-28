@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "TlhPlatform.Product.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TlhPlatform.Product.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TlhPlatform.Product.Domain.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "TlhPlatform.Product.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TlhPlatform.Product.Domain/TlhPlatform.Product.Domain.csproj",
+      "msbuildProject": "../TlhPlatform.Product.Domain/TlhPlatform.Product.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "TlhPlatform.Product.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -207,7 +223,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj": {
+              "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

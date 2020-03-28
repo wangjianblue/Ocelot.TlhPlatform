@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TlhPlatform.Product.Domain\TlhPlatform.Product.Domain.csproj" />
+    <ProjectReference Include="..\TlhPlatform.Product.Infrastructure\TlhPlatform.Product.Infrastructure.csproj" />
+    <ProjectReference Include="..\TlhPlatform.Product.Repository\TlhPlatform.Product.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

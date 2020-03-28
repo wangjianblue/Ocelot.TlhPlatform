@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TlhPlatform.Product.ServerHost</name>
+    </assembly>
+    <members>
+        <member name="F:TlhPlatform.Product.ServerHost.Configs.Cache.ProductKey.Admin_User_Session">
+            <summary>
+            后台用户会话key 
+            </summary>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Controllers.TodoController.#ctor(TlhPlatform.Product.Application.Interfaces.ITodoItemService,TlhPlatform.Infrastructure.Cache.Key.IKeyManager)">
+            <summary>
+            实例化一个EF上下文，进行数据库操作。开始初始入库一条数据
+            </summary>
+            <param name="context"></param>
+            <param name="keyManager"></param>
+            <param name="todoItemService"></param>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Controllers.TodoController.GetTodoItems">
+            <summary>
+            获取所有事项
+            GET: api/Todo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Controllers.TodoController.DeleteTodoItem(System.Int64)">
+            <summary>
+            删除一个TodoItem
+            </summary>
+            <remarks>
+             Sample request:
+             DELETE: api/Todo/2
+            </remarks>
+            <param name="id"></param>
+            <returns>不返回内容</returns>
+            <response code="204">删除成功，不返回内容</response>
+            <response code="404">删除失败，未找到该记录</response>
+        </member>
+        <member name="T:TlhPlatform.Product.ServerHost.Receives">
+            <summary>
+            消费端
+            </summary>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Receives.Order_Receive1">
+            <summary>
+             消息一
+            </summary>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Receives.Order_Receive2">
+            <summary>
+             消息二
+            </summary>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.ServiceCollectionExtensions.AddReceives(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{TlhPlatform.Infrastructure.RabbitMQ.RabbitOptions})">
+            <summary>
+            Adds and configures the consistence services for the consistency.
+            </summary>
+            <param name="services">The services available in the application.</param>
+            <param name="setupAction">An action to configure the <see cref="T:DotNetCore.CAP.CapOptions" />.</param>
+            <returns>An <see cref="T:DotNetCore.CAP.CapBuilder" /> for application services.</returns>
+        </member>
+    </members>
+</doc>

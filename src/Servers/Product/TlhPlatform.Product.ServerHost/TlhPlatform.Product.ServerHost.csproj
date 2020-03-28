@@ -1,15 +1,27 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.2.1" />
+    <PackageReference Include="SmartSql.DIExtension" Version="4.1.52" />
   </ItemGroup>
+ 
 
   <ItemGroup>
-    <ProjectReference Include="..\TlhPlatform.Product.Domain\TlhPlatform.Product.Domain.csproj" />
+    <ProjectReference Include="..\..\..\CommonComponents\TlhPlatform.Infrastructure\TlhPlatform.Infrastructure.csproj" />
+    <ProjectReference Include="..\TlhPlatform.Product.Application\TlhPlatform.Product.Application.csproj" />
   </ItemGroup>
+ 
 
+  <ItemGroup>
+    <None Update="Configs\Cache\KeyConfigList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
 </Project>
