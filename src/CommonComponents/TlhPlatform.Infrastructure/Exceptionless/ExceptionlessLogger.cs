@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Consul;
 using Exceptionless;
-using Exceptionless.Logging;
 
 namespace TlhPlatform.Infrastructure.Exceptionless
 {
@@ -23,12 +23,12 @@ namespace TlhPlatform.Infrastructure.Exceptionless
         {
             if (args != null && args.Length > 0)
             {
-                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Trace).AddTags(args).Submit();
+                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Trace.ToString()).AddTags(args).Submit();
 
             }
             else
             {
-                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Trace);
+                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Trace.ToString());
             }
         }
         /// <summary>
@@ -41,11 +41,11 @@ namespace TlhPlatform.Infrastructure.Exceptionless
         {
             if (args != null && args.Length > 0)
             {
-                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Debug).AddTags(args).Submit();
+                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Debug.ToString()).AddTags(args).Submit();
             }
             else
             {
-                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Debug);
+                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Debug.ToString());
             }
         }
         /// <summary>
@@ -58,11 +58,11 @@ namespace TlhPlatform.Infrastructure.Exceptionless
         {
             if (args != null && args.Length > 0)
             {
-                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Info).AddTags(args).Submit();
+                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Info.ToString()).AddTags(args).Submit();
             }
             else
             {
-                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Info);
+                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Info.ToString());
             }
         }
         /// <summary>
@@ -75,11 +75,11 @@ namespace TlhPlatform.Infrastructure.Exceptionless
         {
             if (args != null && args.Length > 0)
             {
-                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Warn).AddTags(args).Submit();
+                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Warn.ToString()).AddTags(args).Submit();
             }
             else
             {
-                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Warn);
+                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Warn.ToString());
             }
         }
         /// <summary>
@@ -92,11 +92,11 @@ namespace TlhPlatform.Infrastructure.Exceptionless
         {
             if (args != null && args.Length > 0)
             {
-                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Error).AddTags(args).Submit();
+                ExceptionlessClient.Default.CreateLog(source, message, LogLevel.Err.ToString()).AddTags(args).Submit();
             }
             else
             {
-                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Error);
+                ExceptionlessClient.Default.SubmitLog(source, message, LogLevel.Err.ToString());
             }
         }
     }

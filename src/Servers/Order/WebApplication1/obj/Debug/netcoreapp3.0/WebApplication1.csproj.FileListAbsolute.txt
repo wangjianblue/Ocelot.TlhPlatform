@@ -7,7 +7,6 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\bin\Debug\netcoreapp3.0\WebApplication1.runtimeconfig.dev.json
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\bin\Debug\netcoreapp3.0\WebApplication1.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\bin\Debug\netcoreapp3.0\WebApplication1.pdb
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.csprojAssemblyReference.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\staticwebassets\WebApplication1.StaticWebAssets.xml
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
@@ -16,3 +15,4 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.RazorTargetAssemblyInfo.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.csprojAssemblyReference.cache

@@ -22,3 +22,4 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Or
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfo.cs
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.csprojAssemblyReference.cache

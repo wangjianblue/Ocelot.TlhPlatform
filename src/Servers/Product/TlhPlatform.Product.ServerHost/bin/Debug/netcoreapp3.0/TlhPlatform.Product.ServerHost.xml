@@ -9,6 +9,21 @@
             后台用户会话key 
             </summary>
         </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Consumer.ps.Rabbit.Test4">
+            <summary>
+            第一种模式 （简单队列） 一个生产者 一个消费者
+            </summary>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Consumer.Rabbit.Test1">
+            <summary>
+            第一种模式 （简单队列） 一个生产者 一个消费者
+            </summary>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Consumer.Rabbit.Test2">
+            <summary>
+            第二种模式 （Work queues工作队列） 一个生产者多个消费者
+            </summary>
+        </member>
         <member name="M:TlhPlatform.Product.ServerHost.Controllers.TodoController.#ctor(TlhPlatform.Product.Application.Interfaces.ITodoItemService,TlhPlatform.Infrastructure.Cache.Key.IKeyManager)">
             <summary>
             实例化一个EF上下文，进行数据库操作。开始初始入库一条数据
@@ -59,6 +74,11 @@
             <param name="services">The services available in the application.</param>
             <param name="setupAction">An action to configure the <see cref="T:DotNetCore.CAP.CapOptions" />.</param>
             <returns>An <see cref="T:DotNetCore.CAP.CapBuilder" /> for application services.</returns>
+        </member>
+        <member name="M:ConsoleApp1.ps.Rabbit.Test3">
+            <summary>
+            第三种模式 （公平分发 能者多劳） 一个生产者多个消费者
+            </summary>
         </member>
     </members>
 </doc>

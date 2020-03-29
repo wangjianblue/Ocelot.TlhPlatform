@@ -22,3 +22,6 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.AssemblyInfo.cs
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.Properties.Resources.resources
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.csproj.GenerateResource.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netcoreapp2.2\TlhPlatform.Core.csprojAssemblyReference.cache

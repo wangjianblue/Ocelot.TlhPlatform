@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://www.VOCs.com/framework/web" 
+	xmlns="http://www.VOCs.com/framework/web" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="emails">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="email">
+					<xs:complexType>
+						<xs:attribute name="emailType" form="unqualified" type="xs:string" />
+						<xs:attribute name="priority" form="unqualified" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

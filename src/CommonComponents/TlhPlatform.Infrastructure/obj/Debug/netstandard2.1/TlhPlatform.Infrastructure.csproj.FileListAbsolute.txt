@@ -1,0 +1,3 @@
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.1\TlhPlatform.Infrastructure.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.1\TlhPlatform.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.1\TlhPlatform.Infrastructure.AssemblyInfo.cs

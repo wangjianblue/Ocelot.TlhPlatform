@@ -18,7 +18,6 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Aut
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.runtimeconfig.dev.json
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.pdb
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.csprojAssemblyReference.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorAssemblyInfo.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorAssemblyInfo.cs
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.AssemblyInfoInputs.cache
@@ -26,3 +25,4 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Aut
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorTargetAssemblyInfo.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.csprojAssemblyReference.cache

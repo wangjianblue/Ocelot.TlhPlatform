@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="webParms" targetNamespace="http://www.VOCs.com/framework/web" xmlns:mstns="http://www.VOCs.com/framework/web" xmlns="http://www.VOCs.com/framework/web" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="webParams">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="params">
+          <xs:complexType>
+            <xs:attribute name="key" form="unqualified" type="xs:string" />
+            <xs:attribute name="value" form="unqualified" type="xs:string" /> 
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Infrastructure.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Infrastructure.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Infrastructure.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.RazorPages.xml
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Infrastructure.csproj.CopyComplete
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Infrastructure.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Infrastructure.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Infrastructure.pdb

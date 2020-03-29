@@ -18,14 +18,6 @@ D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrast
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.pdb
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.csprojAssemblyReference.cache
 D:\projects\dotnet\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.deps.json
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.dll
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.pdb
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.RazorPages.dll
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.RazorPages.xml
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.csprojAssemblyReference.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.AssemblyInfo.cs
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.csproj.CopyComplete
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.dll
-C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.Infrastructure.pdb

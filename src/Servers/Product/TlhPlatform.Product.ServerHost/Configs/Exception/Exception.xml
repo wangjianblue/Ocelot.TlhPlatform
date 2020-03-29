@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VOCsException>
+  <ExceptionSet>
+    <!--异常邮件的主题-->
+    <Subject>VOCs System Exception</Subject>
+    <!--收取异常邮件的邮件地址，注意，可能有些SMTP不支持群发，所以尽量配置一个邮件。-->
+    <SendTo>VOCsSoft@gmail.com</SendTo>
+  </ExceptionSet>
+  <Handles>
+    <!--处理异常的三种方式，存储在数据库，发送Email，保存到XML文件-->
+    <!--注意：此处必须配置 一个默认的处理方式，对于未定义的异常(系统异常)，通过默认的处理方式来处理-->
+    <handle name="SaveToDb" type="VOCs.Framework.Exceptions.Handle.DbExceptionHandle,VOCs.Framework.Exceptions" default="true"/>
+    <handle name="SendEmail" type="VOCs.Framework.Exceptions.Handle.MailExceptionHandle,VOCs.Framework.Exceptions" default="false"/>
+    <handle name="SaveToFlie" type="VOCs.Framework.Exceptions.Handle.XmlExceptionHandle,VOCs.Framework.Exceptions" default="false"/>
+  </Handles>
+  <BizExceptionCollection>
+    <!--Exception Level you can use and only use SystemError, BizError,Message-->
+    <!--业务异常定义，对于业务类型的异常，可通过抛出此种类型的异常来定义-->
+    <BizException name="Usernotfound" Description="User not Found" NeedLog="true" handle="SaveToFlie" Function="User Management" ExceptionLevel="SystemError"/>
+    <BizException name="OperationNotFound" Description="Operation Not Found in this system, MenuID={0},actionID={1}" NeedLog="true" handle="SaveToDb" Function="Right Management" ExceptionLevel="BizError"/>
+    <BizException name="SysEventMessageError" Description="消息系统错误！" NeedLog="true" handle="SaveToDb" Function="SysEventMessageError" ExceptionLevel="BizError"/>
+    <BizException name="UserIsNotOnDuty" Description="员工[{1}]已离职,ID={0},不能登录！" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="DepIsNotValid" Description="部门[{0}]已被删除，ID={0}，部门员工无法登录！" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="EmployeeHasBeenDeleted" Description="员工[{1}]已被删除,ID={0},不能登录！" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="UserAccountHasBeenDeleted" Description="账号[{1}]已被删除，ID={0},不能用此账号登录" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="EmployeeIsState" Description="员工[{1}]已无效，ID={0},此员工无法登录" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="UserIsFreeze" Description="账号[{1}]已被冻结，ID={0},无法用此账号登录" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="UserIsExpireDate" Description="账号[{1}]已过期，ID={0},无法登录！" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="DepDelState" Description="部门[{0}]已被删除，ID={0}，部门员工无法登录" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+    <BizException name="UserIsState" Description="账号[{1}]已失效，ID={0},无法此账号登录" NeedLog="true" handle="SaveToDb" Function="UserLogin" ExceptionLevel="BizError"/>
+  </BizExceptionCollection>
+</VOCsException>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

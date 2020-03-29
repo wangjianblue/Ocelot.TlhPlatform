@@ -1,0 +1,10 @@
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\bin\Debug\netstandard2.0\TlhPlatform.Core.deps.json
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\bin\Debug\netstandard2.0\TlhPlatform.Core.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\bin\Debug\netstandard2.0\TlhPlatform.Core.pdb
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.0\TlhPlatform.Core.csprojAssemblyReference.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.0\TlhPlatform.Core.Properties.Resources.resources
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.0\TlhPlatform.Core.csproj.GenerateResource.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.0\TlhPlatform.Core.AssemblyInfoInputs.cache
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.0\TlhPlatform.Core.AssemblyInfo.cs
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.0\TlhPlatform.Core.dll
+C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.0\TlhPlatform.Core.pdb

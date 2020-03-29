@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StringSet"
+  targetNamespace="http://www.VOCs.com/framework/web"
+		   elementFormDefault="qualified" xmlns="http://www.VOCs.com/framework/web"
+		   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="StringSet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="StringItem">
+          <xs:complexType>
+            <xs:attribute name="key" use="required" type="xs:string"/>
+            <xs:attribute name="value" use="required" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+
+  </xs:element>
+
+</xs:schema>
