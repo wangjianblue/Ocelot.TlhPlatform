@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {}
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
         "projectName": "TlhPlatform.Infrastructure",
-        "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gary_wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gary_wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

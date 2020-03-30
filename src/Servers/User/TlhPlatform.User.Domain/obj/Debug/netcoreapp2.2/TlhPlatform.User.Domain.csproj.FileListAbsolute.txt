@@ -14,3 +14,10 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.Use
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.User.Domain.AssemblyInfo.cs
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.User.Domain.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.User.Domain.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.User.Domain.deps.json
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.User.Domain.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\bin\Debug\netcoreapp2.2\TlhPlatform.User.Domain.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.User.Domain.AssemblyInfoInputs.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.User.Domain.AssemblyInfo.cs
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.User.Domain.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.User.Domain.pdb

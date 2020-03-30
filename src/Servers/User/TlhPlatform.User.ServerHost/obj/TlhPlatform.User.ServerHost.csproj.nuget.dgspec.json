@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj": {}
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj": {
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
         "projectName": "TlhPlatform.Contracts",
-        "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
-        "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Gary_wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gary_wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,20 +66,20 @@
         }
       }
     },
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
         "projectName": "TlhPlatform.Infrastructure",
-        "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gary_wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gary_wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,20 +220,20 @@
         }
       }
     },
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj": {
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj",
         "projectName": "TlhPlatform.User.Domain",
-        "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj",
-        "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gary_wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gary_wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -278,20 +278,20 @@
         }
       }
     },
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj": {
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj",
+        "projectUniqueName": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj",
         "projectName": "TlhPlatform.User.ServerHost",
-        "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj",
-        "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\obj\\",
+        "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\TlhPlatform.User.ServerHost.csproj",
+        "packagesPath": "C:\\Users\\Gary_wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.ServerHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gary_wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -304,14 +304,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj": {
-                "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj"
+              "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Contracts\\TlhPlatform.Contracts.csproj"
               },
-              "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj"
+              "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Infrastructure\\TlhPlatform.Infrastructure.csproj"
               },
-              "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj": {
-                "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj"
+              "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\User\\TlhPlatform.User.Domain\\TlhPlatform.User.Domain.csproj"
               }
             }
           }

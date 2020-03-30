@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using TlhPlatform.Core.Event.Factories;
 using TlhPlatform.Core.Event.Factories.Internals;
 using TlhPlatform.Core.Event.Handlers;
-using Castle.Core.Logging;
-using TlhPlatform.Core.Threading.Extensions;
 using System.Runtime.ExceptionServices;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Nito.AsyncEx;
 
 namespace TlhPlatform.Core.Event

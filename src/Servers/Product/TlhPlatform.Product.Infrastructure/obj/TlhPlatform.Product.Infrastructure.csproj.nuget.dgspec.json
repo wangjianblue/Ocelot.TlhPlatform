@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj": {}
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj": {
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj",
         "projectName": "TlhPlatform.Product.Domain",
-        "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj",
-        "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gary_wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gary_wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,20 +62,20 @@
         }
       }
     },
-    "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj": {
+    "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj",
         "projectName": "TlhPlatform.Product.Infrastructure",
-        "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\andy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\TlhPlatform.Product.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gary_wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gary_wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +88,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj": {
-                "projectPath": "C:\\Users\\andy\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj"
+              "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\Servers\\Product\\TlhPlatform.Product.Domain\\TlhPlatform.Product.Domain.csproj"
               }
             }
           }

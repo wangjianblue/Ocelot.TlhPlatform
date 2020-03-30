@@ -11,27 +11,32 @@ using TlhPlatform.Core.Reflection;
 namespace TlhPlatform.Core.Events.Bus
 {
     public class EventsModule
-    {
-        private IAllAssemblyFinder _AllAssemblyFinder { get; set; }
-        public EventsModule()
+    { 
+      
+        public void FindEventsTypes()
         {
-            _AllAssemblyFinder = new AppDomainAllAssemblyFinder(); ;
-        }
-        public void FindAutoMapTypes()
-        {
-            var Assembly = _AllAssemblyFinder.FindAll(true).SelectMany(p => p.GetTypes());
-            var baseTypes = Assembly.Where(p => typeof(IEventHandler).IsAssignableFrom(p) && p.IsClass == true && p.IsPublic == true);
-            foreach (var item in baseTypes)
+            var typeFinder = ServiceLocator.Instance.GetService<ITypeFinder>();
+      
+
+            var consumers = typeFinder.FindClassesOfType(typeof(IEventHandler<>)).ToList();
+            foreach (var consumer in consumers)
             {
-                var EventDatas = item.GetInterfaces();
+                //builder.RegisterType(consumer)
+                //    .As(consumer.FindInterfaces((type, criteria) =>
+                //    {
+                //        var isMatch = type.IsGenericType && ((Type)criteria).IsAssignableFrom(type.GetGenericTypeDefinition());
+                //        return isMatch;
+                //    }, typeof(IEventHandler<>)))
+                //    .InstancePerLifetimeScope();
+                var ls = consumer.FindInterfaces((type, criteria) =>
+                {
+                    var isMatch = type.IsGenericType &&
+                                  ((Type)criteria).IsAssignableFrom(type.GetGenericTypeDefinition());
+                    return isMatch;
+                }, typeof(IEventHandler<>));
+                IEventHandlerFactory factory = new IocEventHandlerFactory(ls[0]);
 
-                var EventDataName = EventDatas[0].GenericTypeArguments[0];
-
-                 IEventHandlerFactory factory = new IocEventHandlerFactory(item);
-                //Type type = item.GetType();
-                //var EventHandler = type.Assembly.CreateInstance(item.Name) as IEventHandler;
-
-                //EventBusCommon.RegisterSingleEvent(EventDataName, factory);
+                EventBusCommon.RegisterSingleEvent(typeof(IEventHandler<>), factory);
             }
         }
     }

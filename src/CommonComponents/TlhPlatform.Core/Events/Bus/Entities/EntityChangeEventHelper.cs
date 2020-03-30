@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using TlhPlatform.Core.Domain.Uow;
 using TlhPlatform.Core.Reflection;
+using TlhPlatform.Core.Reflection.Dependency;
 
 namespace TlhPlatform.Core.Event.Entities
 {

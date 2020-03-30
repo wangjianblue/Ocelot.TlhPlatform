@@ -4,11 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
+using TlhPlatform.Core.Event;
+using TlhPlatform.Core.Response;
 using TlhPlatform.Product.Application;
 using TlhPlatform.Product.Application.Interfaces;
 using TlhPlatform.Product.Domain.TodoI;
 using TlhPlatform.Product.Repository;
 using TlhPlatform.Product.ServerHost.Configs.Cache;
+using TlhPlatform.Product.ServerHost.Events;
 using WebApplication1.Models.Cache;
 using IKeyManager = TlhPlatform.Infrastructure.Cache.Key.IKeyManager;
 
@@ -20,7 +23,7 @@ namespace TlhPlatform.Product.ServerHost.Controllers
     [ApiController]//添加特性，代表是一个Web API控制器类
     public class TodoController : Controller
     {
-      
+
         public readonly Infrastructure.Cache.Key.IKeyManager KeyManager;
         public readonly ITodoItemService _TodoItemService;
 
@@ -43,8 +46,14 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         [HttpGet]
         public async Task<IEnumerable<TodoItem>> GetTodoItems()
         {
+            var todoItem = new TodoItem()
+            {
+                Name = "张三",
+            };
+            //EventBusCommon.Trigger(new TodoItemEventData(todoItem));
 
-             var key = KeyManager.Get(name: ProductKey.Admin_User_Session);
+
+            var key = KeyManager.Get(name: ProductKey.Admin_User_Session);
 
             // return await TodoItemService.GeTodoItems();
 
@@ -65,10 +74,14 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         [HttpDelete("{id}", Name = "DeleteTodoItem")]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
-        public async Task<TodoItem> DeleteTodoItem(long id)
+        public async Task<ResponseResult<TodoItem>> DeleteTodoItem(long id)
         {
-            return await _TodoItemService.GetByIdAsync(id);
-
+            var result = await _TodoItemService.GetByIdAsync(id);
+            if (result == null)
+            {
+                return ResponseResult<TodoItem>.GenFaildResponse(); 
+            }
+            return ResponseResult<TodoItem>.GenSuccessResponse(data: result);
              
         }
         ///// <summary>

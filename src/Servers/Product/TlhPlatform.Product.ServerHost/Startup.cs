@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using AspectCore.Extensions.DependencyInjection;
 using DotNetCore.CAP;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,12 +17,17 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SmartSql.ConfigBuilder;
+using TlhPlatform.Core.Dependency;
+using TlhPlatform.Core.Event;
+using TlhPlatform.Core.Events.Bus;
 using TlhPlatform.Infrastructure;
 using TlhPlatform.Infrastructure.Extents;
 using TlhPlatform.Infrastructure.RabbitMQ;
 using TlhPlatform.Product.Application;
 using TlhPlatform.Product.Application.Interfaces;
 using TlhPlatform.Product.Domain.TodoI;
+using TlhPlatform.Product.ServerHost.Events;
+using TlhPlatform.Product.ServerHost.Filter;
 
 namespace TlhPlatform.Product.ServerHost
 {
@@ -44,7 +50,20 @@ namespace TlhPlatform.Product.ServerHost
                 //注意不能用大写V1，不然老报错，Not Found /swagger/v1/swagger.json
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
-            services.AddControllers();
+
+            #region 注册全局拦截器 
+            Action<MvcOptions> filters = new Action<MvcOptions>(r =>
+            {
+                r.Filters.Add(typeof(MyAuthorization));
+                r.Filters.Add(typeof(MyExceptionFilterAttribute));
+                r.Filters.Add(typeof(MyResourceFilterAttribute));
+                r.Filters.Add(typeof(MyActionFilterAttribute));
+                r.Filters.Add(typeof(MyResultFilterAttribute));
+            });
+            services.AddControllers(filters);
+
+            #endregion
+
             //services.AddRedis(p =>
             //{
             //    p.Configuration = "";
@@ -55,6 +74,13 @@ namespace TlhPlatform.Product.ServerHost
                 p.FileName = "KeyConfigList.xml";
                 p.FilePath = $"{AppDomain.CurrentDomain.SetupInformation.ApplicationBase}Configs\\Cache\\";
             });
+
+            #region Authorization
+
+      
+
+            #endregion
+
 
             //#region RabbitMQ
             //var rabbitOptions = Configuration.GetSection("RabbitOptions").Get<RabbitOptions>();
@@ -71,14 +97,17 @@ namespace TlhPlatform.Product.ServerHost
 
             //#endregion
             services.AddTransient<ITodoItemService, TodoItemService>();
-         
+            EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventEmailHandler>();
+            EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSMSHandler>();
+
+            new TlhPlatform.Core.ServiceCollection().AddServices(services);
             #region SmartSql
-            
-           services.AddSmartSql() 
+
+            services.AddSmartSql()
                .AddRepositoryFromAssembly(options =>
                 {
                     options.AssemblyString = "TlhPlatform.Product.Repository";
-                
+
                 });
 
             #endregion
@@ -104,14 +133,15 @@ namespace TlhPlatform.Product.ServerHost
             //    RequestPath = "/Configs"
             //});
             app.UseSwagger();
-            app.UseSwaggerUI(c => {
+            app.UseSwaggerUI(c =>
+            {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
             //app.UseSwaggerExtents(Configuration);
             app.UseRouting();
 
-
+            ServiceLocator.Instance.SetApplicationServiceProvider(app.ApplicationServices);
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -15,6 +15,7 @@ using Microsoft.DotNet.PlatformAbstractions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using TlhPlatform.Infrastructure;
 using TlhPlatform.Infrastructure.Exceptionless;
 using TlhPlatform.Infrastructure.Extents;
 using TlhPlatform.User.ServerHost.Extents;

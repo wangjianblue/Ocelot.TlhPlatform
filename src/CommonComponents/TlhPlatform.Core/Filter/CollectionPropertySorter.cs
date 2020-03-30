@@ -16,8 +16,7 @@ using System.Reflection;
 using TlhPlatform.Core.Exceptions;
 using TlhPlatform.Core.Extensions;
 using TlhPlatform.Core.Properties;
-
-
+ 
 namespace TlhPlatform.Core.Filter
 {
 

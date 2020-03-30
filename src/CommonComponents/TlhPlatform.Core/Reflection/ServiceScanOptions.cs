@@ -18,6 +18,7 @@ namespace TlhPlatform.Core.Reflection
             TransientTypeFinder = new TransientDependencyTypeFinder();
             ScopedTypeFinder = new ScopedDependencyTypeFinder();
             SingletonTypeFinder = new SingletonDependencyTypeFinder();
+            EventBusTypeFinder=new EventBusTypeFinder();
         }
 
         /// <summary>
@@ -34,5 +35,10 @@ namespace TlhPlatform.Core.Reflection
         /// 获取或设置 单例生命周期服务类型查找器
         /// </summary>
         public ITypeFinder SingletonTypeFinder { get; set; }
+
+        /// <summary>
+        /// 获取事件总线类型查找器
+        /// </summary>
+        public  ITypeFinder EventBusTypeFinder { get; set; }
     }
 }

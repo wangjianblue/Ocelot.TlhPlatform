@@ -10,6 +10,7 @@
  
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\CommonComponents\TlhPlatform.Core\TlhPlatform.Core.csproj" />
     <ProjectReference Include="..\..\..\CommonComponents\TlhPlatform.Infrastructure\TlhPlatform.Infrastructure.csproj" />
     <ProjectReference Include="..\TlhPlatform.Product.Application\TlhPlatform.Product.Application.csproj" />
   </ItemGroup>
@@ -19,6 +20,11 @@
     <None Update="Configs\Cache\KeyConfigList.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+ 
+
+  <ItemGroup>
+    <Folder Include="Middleware\" />
   </ItemGroup>
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

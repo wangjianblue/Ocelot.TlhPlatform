@@ -7,6 +7,9 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 using TlhPlatform.Core.Data.Core;
 using TlhPlatform.Core.Dependency;
+using TlhPlatform.Core.Event;
+using TlhPlatform.Core.Event.Factories;
+using TlhPlatform.Core.Events.Bus.Factories.Internals;
 using TlhPlatform.Core.Reflection;
 
 namespace TlhPlatform.Core
@@ -26,7 +29,7 @@ namespace TlhPlatform.Core
         public void AddServices(IServiceCollection service)
         {
             service.AddScoped<ScopedDictionary>();
-         
+
 
             //添加即时生命周期类型的服务
             Type[] dependencyTypes = options.TransientTypeFinder.FindAll();
@@ -40,6 +43,25 @@ namespace TlhPlatform.Core
             dependencyTypes = options.SingletonTypeFinder.FindAll();
             AddTypeWithInterfaces(service, dependencyTypes, ServiceLifetime.Singleton);
 
+            //添加Eventbus
+            var Event = options.EventBusTypeFinder.FindAll();
+            RegisterEventBus(Event);
+        }
+
+        protected void RegisterEventBus(Type[] consumers)
+        {
+            foreach (var consumer in consumers)
+            {
+                var ls = consumer.FindInterfaces((type, criteria) =>
+                {
+                    var isMatch = type.IsGenericType &&
+                                  ((Type)criteria).IsAssignableFrom(type.GetGenericTypeDefinition());
+                    return isMatch;
+                }, typeof(IEventHandler<>));
+                IEventHandlerFactory factory = new IocEventHandlerFactory(ls[0]);
+
+                EventBusCommon.RegisterSingleEvent(typeof(IEventHandler<>), factory);
+            }
         }
 
         /// <summary>

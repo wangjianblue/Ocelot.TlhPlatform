@@ -1,5 +1,6 @@
 using System;
 using TlhPlatform.Core.Reflection;
+using TlhPlatform.Core.Reflection.Dependency;
 
 namespace TlhPlatform.Core.Event.Handlers
 {

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\CommonComponents\\TlhPlatform.Core",
+    "\\src\\CommonComponents\\TlhPlatform.Core\\Properties",
+    "\\src\\CommonComponents\\TlhPlatform.Core\\Reflection",
+    "\\src\\CommonComponents\\TlhPlatform.Core\\Reflection\\Finders",
+    "\\src\\GateWay"
+  ],
+  "SelectedNode": "\\Ocelot.TlhPlatformV1.sln",
+  "PreviewInSolutionExplorer": false
+}

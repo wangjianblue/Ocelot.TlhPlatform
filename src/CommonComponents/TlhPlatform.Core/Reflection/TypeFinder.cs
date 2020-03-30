@@ -83,6 +83,29 @@ namespace TlhPlatform.Core.Reflection
             return allTypes;
         }
 
- 
+        public IList<Assembly> GetAssemblies()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Type> FindClassesOfType(Type assignTypeFrom, bool onlyConcreteClasses = true)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Type> FindClassesOfType(Type assignTypeFrom, IEnumerable<Assembly> assemblies, bool onlyConcreteClasses = true)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Type> FindClassesOfType<T>(bool onlyConcreteClasses = true)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Type> FindClassesOfType<T>(IEnumerable<Assembly> assemblies, bool onlyConcreteClasses = true)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
