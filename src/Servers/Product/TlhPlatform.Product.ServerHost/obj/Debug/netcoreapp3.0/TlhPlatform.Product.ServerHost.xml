@@ -52,6 +52,38 @@
             <response code="204">删除成功，不返回内容</response>
             <response code="404">删除失败，未找到该记录</response>
         </member>
+        <member name="T:TlhPlatform.Product.ServerHost.Filter.MyAuthorization">
+            <summary>
+            优先级1：权限过滤器：它在Filter Pipleline中首先运行，并用于决定当前用户是否有请求权限。如果没有请求权限直接返回。
+            </summary>
+        </member>
+        <member name="T:TlhPlatform.Product.ServerHost.Filter.MyExceptionFilterAttribute">
+            <summary>
+            优先级4：异常过滤器：被应用全局策略处理未处理的异常发生前异常被写入响应体
+            </summary>
+        </member>
+        <member name="T:TlhPlatform.Product.ServerHost.Filter.MyResourceFilterAttribute">
+            <summary>
+            优先级2：资源过滤器： 它在Authorzation后面运行，同时在后面的其它过滤器完成后还会执行。Resource filters 实现缓存或其它性能原因返回。因为它运行在模型绑定前，所以这里的操作都会影响模型绑定。
+            </summary>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Filter.MyResourceFilterAttribute.OnResourceExecuting(Microsoft.AspNetCore.Mvc.Filters.ResourceExecutingContext)">
+            <summary>
+            这个方法会在控制器实例化之前之前
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:TlhPlatform.Product.ServerHost.Filter.MyResourceFilterAttribute.OnResourceExecuted(Microsoft.AspNetCore.Mvc.Filters.ResourceExecutedContext)">
+            <summary>
+            这个方法是是Action的OnResultExecuted过滤器执行完之后在执行的（每次执行完Action之后得到就是一个ViewResult）
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:TlhPlatform.Product.ServerHost.Filter.MyResultFilterAttribute">
+            <summary>
+            优先级5：结果过滤器：它可以在执行Action结果之前执行，且执行Action成功后执行，使用逻辑必须围绕view或格式化执行结果。
+            </summary>
+        </member>
         <member name="T:TlhPlatform.Product.ServerHost.Receives">
             <summary>
             消费端

@@ -272,8 +272,12 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\System.Reactive.xml
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.Product.ServerHost.StaticWebAssets.Manifest.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.Product.ServerHost.StaticWebAssets.xml
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.AssemblyInfoInputs.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.RazorTargetAssemblyInfo.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.csproj.CopyComplete
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Configs\Exception\log4net.config
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\log4net.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.MvcApplicationPartsAssemblyInfo.cache

@@ -18,6 +18,12 @@ namespace TlhPlatform.Product.ServerHost
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureLogging((logging) =>
+                {
+                    logging.AddFilter("System",LogLevel.Warning);
+                    logging.AddFilter("Microsoft",LogLevel.Warning);
+                    logging.AddLog4Net("Configs/Exception/log4net.config"); 
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

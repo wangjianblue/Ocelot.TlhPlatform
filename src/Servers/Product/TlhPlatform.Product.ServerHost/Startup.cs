@@ -17,9 +17,11 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SmartSql.ConfigBuilder;
+using TlhPlatform.Core;
 using TlhPlatform.Core.Dependency;
 using TlhPlatform.Core.Event;
 using TlhPlatform.Core.Events.Bus;
+using TlhPlatform.Core.Filter;
 using TlhPlatform.Infrastructure;
 using TlhPlatform.Infrastructure.Extents;
 using TlhPlatform.Infrastructure.RabbitMQ;
@@ -54,13 +56,14 @@ namespace TlhPlatform.Product.ServerHost
             #region ×¢²áÈ«¾ÖÀ¹½ØÆ÷ 
             Action<MvcOptions> filters = new Action<MvcOptions>(r =>
             {
-                r.Filters.Add(typeof(MyAuthorization));
-                r.Filters.Add(typeof(MyExceptionFilterAttribute));
-                r.Filters.Add(typeof(MyResourceFilterAttribute));
-                r.Filters.Add(typeof(MyActionFilterAttribute));
-                r.Filters.Add(typeof(MyResultFilterAttribute));
+                //r.Filters.Add(typeof(MyAuthorization));
+                //r.Filters.Add(typeof(MyExceptionFilterAttribute));
+                //r.Filters.Add(typeof(MyResourceFilterAttribute));
+                //r.Filters.Add(typeof(MyActionFilterAttribute));
+                //r.Filters.Add(typeof(MyResultFilterAttribute));
             });
             services.AddControllers(filters);
+       
 
             #endregion
 
@@ -73,7 +76,7 @@ namespace TlhPlatform.Product.ServerHost
             {
                 p.FileName = "KeyConfigList.xml";
                 p.FilePath = $"{AppDomain.CurrentDomain.SetupInformation.ApplicationBase}Configs\\Cache\\";
-            });
+            }); 
 
             #region Authorization
 
@@ -100,7 +103,7 @@ namespace TlhPlatform.Product.ServerHost
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventEmailHandler>();
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSMSHandler>();
 
-            new TlhPlatform.Core.ServiceCollection().AddServices(services);
+            //services.AddServices();
             #region SmartSql
 
             services.AddSmartSql()

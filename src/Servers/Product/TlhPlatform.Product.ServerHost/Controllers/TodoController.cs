@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
 using TlhPlatform.Core.Event;
+using TlhPlatform.Core.Filter;
 using TlhPlatform.Core.Response;
 using TlhPlatform.Product.Application;
 using TlhPlatform.Product.Application.Interfaces;
@@ -12,6 +13,7 @@ using TlhPlatform.Product.Domain.TodoI;
 using TlhPlatform.Product.Repository;
 using TlhPlatform.Product.ServerHost.Configs.Cache;
 using TlhPlatform.Product.ServerHost.Events;
+using TlhPlatform.Product.ServerHost.Filter;
 using WebApplication1.Models.Cache;
 using IKeyManager = TlhPlatform.Infrastructure.Cache.Key.IKeyManager;
 
@@ -33,6 +35,7 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         /// <param name="context"></param>
         /// <param name="keyManager"></param>
         /// <param name="todoItemService"></param>
+
         public TodoController(ITodoItemService todoItemService, IKeyManager keyManager)
         {
             _TodoItemService = todoItemService;
@@ -44,6 +47,8 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
+        [TypeFilter(typeof(MyActionFilterAttribute), Arguments = new object[] { "HAHA" },IsReusable = true)]
+        //[CustomIocFilterFactory(typeof(MyActionFilterAttribute))]
         public async Task<IEnumerable<TodoItem>> GetTodoItems()
         {
             var todoItem = new TodoItem()
@@ -79,10 +84,10 @@ namespace TlhPlatform.Product.ServerHost.Controllers
             var result = await _TodoItemService.GetByIdAsync(id);
             if (result == null)
             {
-                return ResponseResult<TodoItem>.GenFaildResponse(); 
+                return ResponseResult<TodoItem>.GenFaildResponse();
             }
             return ResponseResult<TodoItem>.GenSuccessResponse(data: result);
-             
+
         }
         ///// <summary>
         ///// 根据id，获取一条事项
