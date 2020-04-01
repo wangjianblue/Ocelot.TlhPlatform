@@ -20,7 +20,6 @@ namespace TlhPlatform.Product.ServerHost.Filter
             _keyManager = keyManager;
             _logger = logger;
         }
-
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             _logger.LogInformation("执行"+typeof(MyActionFilterAttribute));
