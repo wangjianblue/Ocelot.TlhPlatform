@@ -33,7 +33,6 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.runtimeconfig.dev.json
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\bin\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.csprojAssemblyReference.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorAssemblyInfo.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.RazorAssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Auth.ServerHost\obj\Debug\netcoreapp2.2\TlhPlatform.Auth.ServerHost.AssemblyInfoInputs.cache

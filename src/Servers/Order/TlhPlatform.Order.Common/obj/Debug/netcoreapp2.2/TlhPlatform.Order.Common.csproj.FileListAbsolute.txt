@@ -29,4 +29,3 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatfo
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Common\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Common.csprojAssemblyReference.cache

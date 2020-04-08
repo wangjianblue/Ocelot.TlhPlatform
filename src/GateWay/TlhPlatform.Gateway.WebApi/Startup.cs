@@ -42,7 +42,7 @@ namespace TlhPlatform.Gateway.WebApi
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear(); // ensure not change any return Claims from Authorization Server
             var identityServerOptions = new IdentityServerOptions();
             Configuration.Bind("IdentityServerOptions", identityServerOptions);
-            services.AddMvcCore().AddAuthorization().AddJsonFormatters();
+            services.AddMvcCore().AddAuthorization();
             //services.AddAuthentication(option =>
             //    {
             //        option.DefaultScheme = identityServerOptions.IdentityScheme;

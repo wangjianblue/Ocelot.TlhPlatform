@@ -570,6 +570,7 @@ namespace TlhPlatform.Infrastructure.MongoDB
 
         /// <param name="selector">查询字段</param>
         /// <returns></returns>
+        [Obsolete]
         public PageList<TResult> PageList<T, TResult>(Expression<Func<T, bool>> predicate, Expression<Func<T, TResult>> selector, Func<Sort<T>, Sort<T>> sort, int pageIndex, int pageSize)
         {
             var coll = GetCollection<T>();

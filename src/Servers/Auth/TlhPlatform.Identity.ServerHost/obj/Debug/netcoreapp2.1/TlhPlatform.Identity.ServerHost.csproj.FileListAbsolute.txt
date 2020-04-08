@@ -90,7 +90,6 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\bin\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\bin\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.Views.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\bin\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.Views.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.csprojAssemblyReference.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.RazorAssemblyInfo.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.RazorAssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.AssemblyInfoInputs.cache
@@ -123,3 +122,4 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.csproj.CopyComplete
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Auth\TlhPlatform.Identity.ServerHost\obj\Debug\netcoreapp2.1\TlhPlatform.Identity.ServerHost.csprojAssemblyReference.cache

@@ -4,8 +4,6 @@ using System.Net;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
 namespace TlhPlatform.Infrastructure.Exceptionless
 {
     public class GlobalExceptionFilter : IExceptionFilter
