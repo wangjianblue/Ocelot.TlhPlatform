@@ -143,7 +143,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Core\\TlhPlatform.Core.csproj": {
+                "projectPath": "C:\\Users\\Gary_wang\\source\\repos\\Ocelot.TlhPlatformV2\\src\\CommonComponents\\TlhPlatform.Core\\TlhPlatform.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -194,10 +198,6 @@
             "Hangfire.Core": {
               "target": "Package",
               "version": "[1.7.9, )"
-            },
-            "Microsoft.Extensions.Caching.Memory": {
-              "target": "Package",
-              "version": "[2.2.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

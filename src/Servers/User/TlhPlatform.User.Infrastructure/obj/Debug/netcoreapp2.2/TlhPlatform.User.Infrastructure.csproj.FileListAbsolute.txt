@@ -20,4 +20,3 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.User.Infrastructure.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.User.Infrastructure.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.User.Infrastructure.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.Infrastructure\obj\Debug\netcoreapp2.2\TlhPlatform.User.Infrastructure.csprojAssemblyReference.cache

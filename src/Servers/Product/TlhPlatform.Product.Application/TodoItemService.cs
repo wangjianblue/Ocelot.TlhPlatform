@@ -17,7 +17,6 @@ namespace TlhPlatform.Product.Application
         {
             _todoItemRepository = todoItemRepository;
         }
-
         public async Task<TodoItem> GetByIdAsync(long id)
         {
             return await _todoItemRepository.GetByIdAsync(id);

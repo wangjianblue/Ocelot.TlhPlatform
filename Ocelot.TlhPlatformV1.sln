@@ -59,11 +59,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Product.Infrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Product.ServerHost", "src\Servers\Product\TlhPlatform.Product.ServerHost\TlhPlatform.Product.ServerHost.csproj", "{FB9A97F7-6ED0-4E4E-AAC5-CA5BB6B10F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "src\Servers\Order\WebApplication1\WebApplication1.csproj", "{30AD543C-8D7B-4772-8E27-8DC8DD2DC530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "src\Servers\Order\WebApplication1\WebApplication1.csproj", "{30AD543C-8D7B-4772-8E27-8DC8DD2DC530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlhPlatform.Product.Repository", "src\Servers\Product\TlhPlatform.Product.Repository\TlhPlatform.Product.Repository.csproj", "{D77F1F39-BF39-4036-9E83-AD38AB3616BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Product.Repository", "src\Servers\Product\TlhPlatform.Product.Repository\TlhPlatform.Product.Repository.csproj", "{D77F1F39-BF39-4036-9E83-AD38AB3616BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlhPlatform.Product.Application", "src\Servers\Product\TlhPlatform.Product.Application\TlhPlatform.Product.Application.csproj", "{17111B65-AE0A-42FC-92A9-C610D01EEFE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TlhPlatform.Product.Application", "src\Servers\Product\TlhPlatform.Product.Application\TlhPlatform.Product.Application.csproj", "{17111B65-AE0A-42FC-92A9-C610D01EEFE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentCenter", "PaymentCenter", "{41D929E5-71D6-473D-8FD5-403E62EBF3A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlhPlatform.PaymentCenter.Application", "src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Application\TlhPlatform.PaymentCenter.Application.csproj", "{9A8354BE-7267-4795-B61E-25E4427DCC98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlhPlatform.PaymentCenter.Domain", "src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\TlhPlatform.PaymentCenter.Domain.csproj", "{27237F1D-4EF0-459E-992D-2018037AE6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlhPlatform.PaymentCenter.Repository", "src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Repository\TlhPlatform.PaymentCenter.Repository.csproj", "{474AE3E8-8218-4B94-BF6E-0F30FD55976E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlhPlatform.PaymentCenter.ServerHost", "src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\TlhPlatform.PaymentCenter.ServerHost.csproj", "{37C68C82-E6CB-45C0-9A0F-8C4FD251141F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -163,6 +173,22 @@ Global
 		{17111B65-AE0A-42FC-92A9-C610D01EEFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17111B65-AE0A-42FC-92A9-C610D01EEFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17111B65-AE0A-42FC-92A9-C610D01EEFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8354BE-7267-4795-B61E-25E4427DCC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8354BE-7267-4795-B61E-25E4427DCC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8354BE-7267-4795-B61E-25E4427DCC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8354BE-7267-4795-B61E-25E4427DCC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27237F1D-4EF0-459E-992D-2018037AE6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27237F1D-4EF0-459E-992D-2018037AE6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27237F1D-4EF0-459E-992D-2018037AE6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27237F1D-4EF0-459E-992D-2018037AE6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474AE3E8-8218-4B94-BF6E-0F30FD55976E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474AE3E8-8218-4B94-BF6E-0F30FD55976E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474AE3E8-8218-4B94-BF6E-0F30FD55976E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474AE3E8-8218-4B94-BF6E-0F30FD55976E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C68C82-E6CB-45C0-9A0F-8C4FD251141F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C68C82-E6CB-45C0-9A0F-8C4FD251141F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C68C82-E6CB-45C0-9A0F-8C4FD251141F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C68C82-E6CB-45C0-9A0F-8C4FD251141F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +224,11 @@ Global
 		{30AD543C-8D7B-4772-8E27-8DC8DD2DC530} = {E4DBF3D9-FD9D-480C-864C-5B2A746868BC}
 		{D77F1F39-BF39-4036-9E83-AD38AB3616BD} = {31EF9BEB-CA5B-4BD5-A773-0EC810036845}
 		{17111B65-AE0A-42FC-92A9-C610D01EEFE5} = {31EF9BEB-CA5B-4BD5-A773-0EC810036845}
+		{41D929E5-71D6-473D-8FD5-403E62EBF3A2} = {9CD68436-95AC-4C46-90C6-3A34EBEA5013}
+		{9A8354BE-7267-4795-B61E-25E4427DCC98} = {41D929E5-71D6-473D-8FD5-403E62EBF3A2}
+		{27237F1D-4EF0-459E-992D-2018037AE6E7} = {41D929E5-71D6-473D-8FD5-403E62EBF3A2}
+		{474AE3E8-8218-4B94-BF6E-0F30FD55976E} = {41D929E5-71D6-473D-8FD5-403E62EBF3A2}
+		{37C68C82-E6CB-45C0-9A0F-8C4FD251141F} = {41D929E5-71D6-473D-8FD5-403E62EBF3A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26261CFB-B568-4B11-8EB4-17AC2F0A8589}

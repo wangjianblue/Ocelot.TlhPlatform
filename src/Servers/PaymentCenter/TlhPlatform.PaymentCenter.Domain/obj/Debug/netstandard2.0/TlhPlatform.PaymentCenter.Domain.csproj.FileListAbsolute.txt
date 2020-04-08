@@ -1,0 +1,7 @@
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\bin\Debug\netstandard2.0\TlhPlatform.PaymentCenter.Domain.deps.json
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\bin\Debug\netstandard2.0\TlhPlatform.PaymentCenter.Domain.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\bin\Debug\netstandard2.0\TlhPlatform.PaymentCenter.Domain.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\obj\Debug\netstandard2.0\TlhPlatform.PaymentCenter.Domain.AssemblyInfoInputs.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\obj\Debug\netstandard2.0\TlhPlatform.PaymentCenter.Domain.AssemblyInfo.cs
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\obj\Debug\netstandard2.0\TlhPlatform.PaymentCenter.Domain.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.Domain\obj\Debug\netstandard2.0\TlhPlatform.PaymentCenter.Domain.pdb

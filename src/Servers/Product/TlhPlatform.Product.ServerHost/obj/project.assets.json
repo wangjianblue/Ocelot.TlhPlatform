@@ -3464,7 +3464,6 @@
           "Exceptionless": "4.3.2027",
           "Exceptionless.AspNetCore": "4.3.2027",
           "Hangfire.Core": "1.7.9",
-          "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.Configuration": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
@@ -3477,7 +3476,8 @@
           "Swashbuckle.AspNetCore.Swagger": "5.0.0-rc2",
           "Swashbuckle.AspNetCore.SwaggerGen": "5.0.0-rc2",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.2.1",
-          "System.Reactive.PlatformServices": "4.2.0-preview.625"
+          "System.Reactive.PlatformServices": "4.2.0-preview.625",
+          "TlhPlatform.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TlhPlatform.Infrastructure.dll": {}
