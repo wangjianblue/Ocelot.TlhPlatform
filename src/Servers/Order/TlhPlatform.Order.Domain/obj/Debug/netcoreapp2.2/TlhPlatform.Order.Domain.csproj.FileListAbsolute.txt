@@ -30,3 +30,4 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatfo
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Order\TlhPlatform.Order.Domain\obj\Debug\netcoreapp2.2\TlhPlatform.Order.Domain.csprojAssemblyReference.cache

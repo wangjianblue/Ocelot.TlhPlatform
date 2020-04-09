@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using TlhPlatform.Infrastructure.AutoMapper;
 
-namespace TlhPlatform.Product.Domain.TodoI
+namespace TlhPlatform.Product.Domain.Entity
 {
-    public class TodoItem
+    public class TodoItem: IBaseEntity
     {
         //主键
         public long Id { get; set; }

@@ -1,10 +1,3 @@
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.csprojAssemblyReference.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.User.ServerHost.StaticWebAssets.Manifest.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.User.ServerHost.StaticWebAssets.xml
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.AssemblyInfoInputs.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -21,6 +14,8 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\AspectCore.Extensions.DependencyInjection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\AspectCore.Extensions.Reflection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Autofac.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\AutoMapper.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Castle.Core.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Consul.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\DnsClient.dll
@@ -37,6 +32,7 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DiagnosticAdapter.dll
@@ -122,7 +118,15 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\TlhPlatform.User.Domain.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\TlhPlatform.Core.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\System.Reactive.xml
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.csprojAssemblyReference.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.User.ServerHost.StaticWebAssets.Manifest.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.User.ServerHost.StaticWebAssets.xml
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.AssemblyInfoInputs.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.RazorTargetAssemblyInfo.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.csproj.CopyComplete
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.MvcApplicationPartsAssemblyInfo.cs

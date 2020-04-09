@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using TlhPlatform.Product.Domain.TodoI;
+using TlhPlatform.Product.Domain.Entity;
 
 namespace TlhPlatform.Product.Application.Interfaces
 {

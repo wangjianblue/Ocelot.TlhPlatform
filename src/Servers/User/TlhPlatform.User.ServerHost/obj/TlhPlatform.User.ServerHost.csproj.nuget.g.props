@@ -13,7 +13,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgExceptionless Condition=" '$(PkgExceptionless)' == '' ">C:\Users\Gary_wang\.nuget\packages\exceptionless\4.3.2027</PkgExceptionless>
+    <PkgExceptionless Condition=" '$(PkgExceptionless)' == '' ">C:\Users\Gary_wang\.nuget\packages\exceptionless\4.4.0</PkgExceptionless>
     <Pkgapache-thrift-netcore Condition=" '$(Pkgapache-thrift-netcore)' == '' ">C:\Users\Gary_wang\.nuget\packages\apache-thrift-netcore\0.9.3.2</Pkgapache-thrift-netcore>
   </PropertyGroup>
 </Project>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using TlhPlatform.Product.Application.Interfaces;
-using TlhPlatform.Product.Domain.TodoI;
+using TlhPlatform.Product.Domain.Entity;
 using TlhPlatform.Product.Repository;
 
 namespace TlhPlatform.Product.Application

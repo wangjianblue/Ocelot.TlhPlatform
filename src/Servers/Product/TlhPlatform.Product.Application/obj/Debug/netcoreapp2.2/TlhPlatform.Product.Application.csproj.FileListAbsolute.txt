@@ -1,0 +1,3 @@
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Product.Application.csprojAssemblyReference.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Product.Application.AssemblyInfoInputs.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Application\obj\Debug\netcoreapp2.2\TlhPlatform.Product.Application.AssemblyInfo.cs

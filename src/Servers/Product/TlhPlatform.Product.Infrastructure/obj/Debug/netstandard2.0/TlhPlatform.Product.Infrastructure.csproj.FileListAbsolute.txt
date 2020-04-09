@@ -17,14 +17,3 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.pdb
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.csproj.CopyComplete
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.deps.json
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.dll
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.dll
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.csprojAssemblyReference.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.AssemblyInfo.cs
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.csproj.CopyComplete
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.dll
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Infrastructure\obj\Debug\netstandard2.0\TlhPlatform.Product.Infrastructure.pdb

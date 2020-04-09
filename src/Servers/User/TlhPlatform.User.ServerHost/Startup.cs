@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using AspectCore.Extensions.DependencyInjection;
-using AspectCore.Injector;
 using Consul;
 using EasyNetQ;
 using Exceptionless;
@@ -33,15 +32,14 @@ namespace apione
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(options => { /*options.Filters.Add<GlobalExceptionFilter>(); */});
             services.AddRegistrServices(this.GetType().Assembly);
             services.AddSwagger(Configuration);
             services.AddSingleton(Configuration);
       
-        
-            return services.ToServiceContainer().Build();
+         
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

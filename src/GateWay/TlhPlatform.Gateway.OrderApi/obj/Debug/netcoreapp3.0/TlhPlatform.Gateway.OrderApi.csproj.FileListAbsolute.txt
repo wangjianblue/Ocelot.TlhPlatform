@@ -7,7 +7,6 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.runtimeconfig.dev.json
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\bin\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.csprojAssemblyReference.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.AssemblyInfoInputs.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.AssemblyInfo.cs
@@ -16,3 +15,4 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.Gateway.OrderApi.StaticWebAssets.Manifest.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\staticwebassets\TlhPlatform.Gateway.OrderApi.StaticWebAssets.xml
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.OrderApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.OrderApi.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\bin\Debug\netcoreapp3.0\TlhPlatform.Contracts.deps.json
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\bin\Debug\netcoreapp3.0\TlhPlatform.Contracts.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\bin\Debug\netcoreapp3.0\TlhPlatform.Contracts.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp3.0\TlhPlatform.Contracts.AssemblyInfoInputs.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp3.0\TlhPlatform.Contracts.AssemblyInfo.cs
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp3.0\TlhPlatform.Contracts.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netcoreapp3.0\TlhPlatform.Contracts.pdb

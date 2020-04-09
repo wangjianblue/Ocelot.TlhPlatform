@@ -28,4 +28,7 @@
       <Link>SmartSqlMapConfig.xsd</Link>
     </None>
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgExceptionless Condition=" '$(PkgExceptionless)' == '' ">C:\Users\Gary_wang\.nuget\packages\exceptionless\4.4.0</PkgExceptionless>
+  </PropertyGroup>
 </Project>

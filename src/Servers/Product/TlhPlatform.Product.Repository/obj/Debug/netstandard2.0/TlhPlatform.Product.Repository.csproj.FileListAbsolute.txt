@@ -12,17 +12,3 @@ C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.csproj.CopyComplete
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.dll
 C:\Users\andy\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\Maps\TodoItem.xml
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\SmartSqlMapConfig.Development.xml
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\SmartSqlMapConfig.xml
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\TlhPlatform.Product.Repository.deps.json
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\TlhPlatform.Product.Repository.dll
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\TlhPlatform.Product.Repository.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.dll
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\bin\Debug\netstandard2.0\TlhPlatform.Product.Domain.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.AssemblyInfoInputs.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.AssemblyInfo.cs
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.csproj.CopyComplete
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.dll
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Repository\obj\Debug\netstandard2.0\TlhPlatform.Product.Repository.csprojAssemblyReference.cache

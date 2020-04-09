@@ -1,7 +1,3 @@
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.csprojAssemblyReference.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.AssemblyInfoInputs.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\ocelot.global.json
@@ -41,6 +37,8 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\AspectCore.Extensions.Reflection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Autofac.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\AutoMapper.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Castle.Core.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Consul.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\DnsClient.dll
@@ -69,6 +67,7 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DiagnosticAdapter.dll
@@ -152,8 +151,13 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\TlhPlatform.Gateway.Application.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\TlhPlatform.Core.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\System.Reactive.xml
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.csprojAssemblyReference.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.AssemblyInfoInputs.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.RazorTargetAssemblyInfo.cache
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.csproj.CopyComplete
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\GateWay\TlhPlatform.Gateway.WebApi\obj\Debug\netcoreapp3.0\TlhPlatform.Gateway.WebApi.MvcApplicationPartsAssemblyInfo.cs
