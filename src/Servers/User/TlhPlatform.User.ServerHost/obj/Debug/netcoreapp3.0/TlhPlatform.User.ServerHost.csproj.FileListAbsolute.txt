@@ -135,3 +135,14 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatfor
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.User.ServerHost.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Win32.Registry.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\MongoDB.Libmongocrypt.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\SharpCompress.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\System.IO.Pipelines.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\System.Threading.Channels.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\fa\Hangfire.Core.resources.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\pt\Hangfire.Core.resources.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\User\TlhPlatform.User.ServerHost\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll

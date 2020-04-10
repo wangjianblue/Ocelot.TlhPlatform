@@ -24,13 +24,13 @@
             第二种模式 （Work queues工作队列） 一个生产者多个消费者
             </summary>
         </member>
-        <member name="M:TlhPlatform.Product.ServerHost.Controllers.TodoController.#ctor(TlhPlatform.Product.Application.Interfaces.ITodoItemService,TlhPlatform.Infrastructure.Cache.Key.IKeyManager)">
+        <member name="M:TlhPlatform.Product.ServerHost.Controllers.TodoController.#ctor(TlhPlatform.Product.Application.Interfaces.ITodoItemService,TlhPlatform.Infrastructure.Cache.Key.IKeyManager,System.Net.Http.IHttpClientFactory)">
             <summary>
             实例化一个EF上下文，进行数据库操作。开始初始入库一条数据
             </summary>
-            <param name="context"></param>
             <param name="keyManager"></param>
             <param name="todoItemService"></param>
+            <param name="httpClient"></param>
         </member>
         <member name="M:TlhPlatform.Product.ServerHost.Controllers.TodoController.GetTodoItems">
             <summary>

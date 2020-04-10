@@ -59,7 +59,7 @@ using IdentityServer4.Quickstart.UI;
             WriteLiteral("\r\n<div class=\"welcome-page\">\r\n    <div class=\"row page-header\">\r\n        <div class=\"col-sm-10\">\r\n            <h1>\r\n                ");
             EndContext();
             BeginContext(254, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0d911b9757a042158a4962f07454306c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ecedbc5085de40b7bb3d2727cf7f7e87", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -88,7 +88,7 @@ using IdentityServer4.Quickstart.UI;
             WriteLiteral(")</small>\r\n            </h1>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-8\">\r\n            <p>\r\n                IdentityServer publishes a\r\n                ");
             EndContext();
             BeginContext(567, 67, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34bf029bba03408cb6c29a73fc522aa3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "856e55bb8ba444df865803431b7af2a7", async() => {
                 BeginContext(612, 18, true);
                 WriteLiteral("discovery document");
                 EndContext();
@@ -109,7 +109,7 @@ using IdentityServer4.Quickstart.UI;
             WriteLiteral("\r\n                where you can find metadata and links to all the endpoints, key material, etc.\r\n            </p>\r\n        </div>\r\n        <div class=\"col-sm-8\">\r\n            <p>\r\n                Click ");
             EndContext();
             BeginContext(837, 27, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b742d1bfaf54cc9ae6dc1d9c2a80688", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f1ccf78fa48d45a18bee5c9d864e4ef1", async() => {
                 BeginContext(856, 4, true);
                 WriteLiteral("here");
                 EndContext();
@@ -130,7 +130,7 @@ using IdentityServer4.Quickstart.UI;
             WriteLiteral(" to manage your stored grants.\r\n            </p>\r\n            <p>\r\n                Click ");
             EndContext();
             BeginContext(953, 26, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "146d844a0fb5482189cb3246c5f170ac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f959cbb23c84023b1305d3b5eb5cd7f", async() => {
                 BeginContext(971, 4, true);
                 WriteLiteral("here");
                 EndContext();

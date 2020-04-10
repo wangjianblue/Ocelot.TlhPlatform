@@ -17,3 +17,4 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPla
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.1\TlhPlatform.Core.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.1\TlhPlatform.Core.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.1\TlhPlatform.Core.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Core\obj\Debug\netstandard2.1\TlhPlatform.Core.csprojAssemblyReference.cache

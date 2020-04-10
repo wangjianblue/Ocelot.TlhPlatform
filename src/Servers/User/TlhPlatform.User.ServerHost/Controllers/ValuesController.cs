@@ -52,10 +52,10 @@ namespace TlhPlatform.User.ServerHost
         }
         // GET api/values/5
         [HttpGet("{id}")]
-        [HystrixCommand(nameof(GetAllProductsFallBackAsync),
-            IsEnableCircuitBreaker = true,
-            ExceptionsAllowedBeforeBreaking = 3,
-            MillisecondsOfBreak = 1000 * 5)]
+        //[HystrixCommand(nameof(GetAllProductsFallBackAsync),
+            //IsEnableCircuitBreaker = true,
+            //ExceptionsAllowedBeforeBreaking = 3,
+            //MillisecondsOfBreak = 1000 * 5)]
         public ActionResult<string> Get(int id)
         {
             try

@@ -5,3 +5,4 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPla
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netstandard2.1\TlhPlatform.Contracts.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netstandard2.1\TlhPlatform.Contracts.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netstandard2.1\TlhPlatform.Contracts.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Contracts\obj\Debug\netstandard2.1\TlhPlatform.Contracts.csprojAssemblyReference.cache

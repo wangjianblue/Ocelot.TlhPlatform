@@ -9,7 +9,6 @@
     ".NETStandard,Version=v2.1/": {
       "TlhPlatform.Product.Infrastructure/1.0.0": {
         "dependencies": {
-          "TlhPlatform.Infrastructure": "1.0.0",
           "TlhPlatform.Product.Domain": "1.0.0"
         },
         "runtime": {
