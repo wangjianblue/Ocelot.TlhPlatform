@@ -23,6 +23,7 @@ using TlhPlatform.Core.Event;
 using TlhPlatform.Core.Events.Bus;
 using TlhPlatform.Core.Filter;
 using TlhPlatform.Infrastructure;
+using TlhPlatform.Infrastructure.AutoMapper;
 using TlhPlatform.Infrastructure.Extents;
 using TlhPlatform.Infrastructure.RabbitMQ;
 using TlhPlatform.Product.Application;
@@ -103,15 +104,17 @@ namespace TlhPlatform.Product.ServerHost
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSMSHandler>();
 
             //services.AddServices();
-            #region SmartSql
-
+            #region SmartSql 
             services.AddSmartSql()
                .AddRepositoryFromAssembly(options =>
                 {
-                    options.AssemblyString = "TlhPlatform.Product.Repository";
-
+                    options.AssemblyString = "TlhPlatform.Product.Repository"; 
                 });
+            #endregion
 
+            #region AutoMapper
+
+            services.AddAutoMapperException();
             #endregion
 
         }

@@ -8,7 +8,7 @@ using TlhPlatform.Core.Reflection.Dependency;
 using TlhPlatform.Core.Reflection.Finders;
 
 namespace TlhPlatform.Infrastructure.AutoMapper
-{ 
+{
     public class AutoMapperTypeFinder : FinderBase<Type>, ITypeFinder
     {
         /// <summary>
@@ -44,18 +44,16 @@ namespace TlhPlatform.Infrastructure.AutoMapper
         public void FindAutoMapTypes(IMapperConfigurationExpression configuration)
         {
             var assembly = allAssemblyFinder.FindAll(formCache: true).SelectMany(p => p.GetTypes());
-            var baseTypes = assembly.Where(p => typeof(IBaseEntity).IsAssignableFrom(p));
+            var baseTypes = assembly.Where(p => typeof(IBaseEntity).IsAssignableFrom(p) && p.IsClass);
             foreach (var item in baseTypes)
             {
-                var model = assembly.FirstOrDefault(p => typeof(IBaseDtoModel).IsAssignableFrom(p) && p.Name == (
-                                                             $"{item.Name}"));
+                var model = assembly.FirstOrDefault(p => typeof(IBaseDtoModel).IsAssignableFrom(p) && p.Name == ($"{item.Name}"));
                 if (model != null)
                 {
                     configuration.CreateMap(item, model);//从实体到Model
                     configuration.CreateMap(model, item);//从Model到实体
                 }
-                var viewmodel = assembly.FirstOrDefault(p => typeof(IBaseDtoModel).IsAssignableFrom(p) && p.Name == (
-                                                                 $"{item.Name}{"Dto"}"));
+                var viewmodel = assembly.FirstOrDefault(p => typeof(IBaseDtoModel).IsAssignableFrom(p) && p.Name == ($"{item.Name}{"Dto"}"));
                 if (viewmodel != null)
                 {
                     configuration.CreateMap(item, viewmodel);//从实体到Model

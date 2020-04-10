@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using TlhPlatform.Core.Event;
 using TlhPlatform.Core.Filter;
 using TlhPlatform.Core.Response;
+using TlhPlatform.Infrastructure.AutoMapper;
 using TlhPlatform.Product.Application;
 using TlhPlatform.Product.Application.Interfaces;
+using TlhPlatform.Product.Domain.Dto;
 using TlhPlatform.Product.Domain.Entity;
 using TlhPlatform.Product.Repository;
 using TlhPlatform.Product.ServerHost.Configs.Cache;
@@ -57,6 +59,7 @@ namespace TlhPlatform.Product.ServerHost.Controllers
             };
             //EventBusCommon.Trigger(new TodoItemEventData(todoItem));
 
+           var todoItemDto= todoItem.ToModel<TodoItemDto>();
 
             var key = KeyManager.Get(name: ProductKey.Admin_User_Session);
 

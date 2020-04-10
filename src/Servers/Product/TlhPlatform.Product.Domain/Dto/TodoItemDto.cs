@@ -10,9 +10,8 @@ namespace TlhPlatform.Product.Domain.Dto
     { 
 
         //主键
-        public  long Id { get; set; }
+        public   long Id { get; set; }
         //待办事项名称
-        public string Name { get; set; }
-   
+        public string Name { get; set; } 
     }
 }

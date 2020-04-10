@@ -1,91 +1,10 @@
-2020-04-01 13:25:55,373 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2020-04-01 13:25:55,409 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2020-04-01 13:25:55,414 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
-2020-04-01 13:25:55,419 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
-2020-04-01 13:25:57,649 [4] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
-2020-04-01 13:26:08,916 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
-System.InvalidOperationException: The 'CreateInstance' method of type 'IFilterFactory' cannot return a null value.
-   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
-   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
-   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
-   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
-   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
-   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
---- End of stack trace from previous location where exception was thrown ---
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2020-04-01 13:29:14,779 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2020-04-01 13:29:14,795 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2020-04-01 13:29:14,801 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
-2020-04-01 13:29:14,807 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
-2020-04-01 13:29:15,948 [12] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
-2020-04-01 13:29:24,992 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] Starting.
-2020-04-01 13:29:25,082 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] Starting.
-2020-04-01 13:29:25,091 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - BuildSqlMap.Child ->> Path :[C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Maps\TodoItem.xml].
-2020-04-01 13:29:25,122 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] End.
-2020-04-01 13:29:25,142 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] End.
-2020-04-01 13:29:25,232 [4] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository] Start
-2020-04-01 13:29:25,262 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Insert->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:False]
-2020-04-01 13:29:25,269 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Update->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
-2020-04-01 13:29:25,278 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdate->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
-2020-04-01 13:29:25,285 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Delete->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
-2020-04-01 13:29:25,295 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteById->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
-2020-04-01 13:29:25,302 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntity->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
-2020-04-01 13:29:25,310 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetById->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
-2020-04-01 13:29:25,317 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecord->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:False]
-2020-04-01 13:29:25,325 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPage->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:False]
-2020-04-01 13:29:25,332 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Query->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:False]
-2020-04-01 13:29:25,340 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExist->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:False]
-2020-04-01 13:29:25,347 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:InsertAsync->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:True]
-2020-04-01 13:29:25,354 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:UpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
-2020-04-01 13:29:25,361 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
-2020-04-01 13:29:25,368 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
-2020-04-01 13:29:25,375 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteByIdAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
-2020-04-01 13:29:25,383 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntityAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
-2020-04-01 13:29:25,391 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetByIdAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
-2020-04-01 13:29:25,398 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecordAsync->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:True]
-2020-04-01 13:29:25,407 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPageAsync->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:True]
-2020-04-01 13:29:25,415 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryAsync->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:True]
-2020-04-01 13:29:25,423 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExistAsync->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:True]
-2020-04-01 13:29:25,462 [4] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository],ImplType.FullName:[TodoItemRepository_Impl_e130bd5c3ba14c7e8db39f8738b3401a] End
-2020-04-01 13:29:26,815 [4] INFO  TlhPlatform.Product.ServerHost.Filter.MyActionFilterAttribute - 执行TlhPlatform.Product.ServerHost.Filter.MyActionFilterAttribute
-2020-04-01 13:31:55,919 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2020-04-01 13:31:55,938 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2020-04-01 13:31:55,945 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
-2020-04-01 13:31:55,952 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
-2020-04-01 13:31:57,147 [12] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
-2020-04-01 13:32:07,653 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] Starting.
-2020-04-01 13:32:07,700 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] Starting.
-2020-04-01 13:32:07,711 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - BuildSqlMap.Child ->> Path :[C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Maps\TodoItem.xml].
-2020-04-01 13:32:07,738 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] End.
-2020-04-01 13:32:07,758 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] End.
-2020-04-01 13:32:07,806 [5] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository] Start
-2020-04-01 13:32:07,834 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Insert->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:False]
-2020-04-01 13:32:07,841 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Update->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
-2020-04-01 13:32:07,849 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdate->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
-2020-04-01 13:32:07,857 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Delete->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
-2020-04-01 13:32:07,866 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteById->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
-2020-04-01 13:32:07,874 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntity->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
-2020-04-01 13:32:07,882 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetById->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
-2020-04-01 13:32:07,890 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecord->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:False]
-2020-04-01 13:32:07,897 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPage->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:False]
-2020-04-01 13:32:07,906 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Query->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:False]
-2020-04-01 13:32:07,914 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExist->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:False]
-2020-04-01 13:32:07,921 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:InsertAsync->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:True]
-2020-04-01 13:32:07,929 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:UpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
-2020-04-01 13:32:07,935 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
-2020-04-01 13:32:07,944 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
-2020-04-01 13:32:07,951 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteByIdAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
-2020-04-01 13:32:07,959 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntityAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
-2020-04-01 13:32:07,966 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetByIdAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
-2020-04-01 13:32:07,975 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecordAsync->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:True]
-2020-04-01 13:32:07,983 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPageAsync->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:True]
-2020-04-01 13:32:07,992 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryAsync->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:True]
-2020-04-01 13:32:08,000 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExistAsync->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:True]
-2020-04-01 13:32:08,011 [5] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository],ImplType.FullName:[TodoItemRepository_Impl_51817e3fddbd4fcfac116d5c9da0f744] End
-2020-04-01 13:32:09,205 [5] INFO  TlhPlatform.Product.ServerHost.Filter.MyActionFilterAttribute - 执行TlhPlatform.Product.ServerHost.Filter.MyActionFilterAttribute
+2020-04-10 09:30:44,018 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-10 09:30:44,033 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-10 09:30:44,035 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-10 09:30:44,048 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-10 09:30:45,024 [4] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-10 09:32:36,029 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-10 09:32:36,042 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-10 09:32:36,044 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-10 09:32:36,046 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-10 09:32:36,560 [9] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
