@@ -118,7 +118,7 @@
             },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -134,9 +134,13 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[3.1.3, )"
             },
@@ -272,15 +276,15 @@
             },
             "Hangfire.Core": {
               "target": "Package",
-              "version": "[1.7.9, )"
+              "version": "[1.7.10, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -288,11 +292,11 @@
             },
             "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[2.8.0, )"
+              "version": "[2.10.3, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[6.1.2, )"
+              "version": "[7.2.0, )"
             },
             "Quartz": {
               "target": "Package",
@@ -304,7 +308,7 @@
             },
             "StackExchange.Redis": {
               "target": "Package",
-              "version": "[2.0.601, )"
+              "version": "[2.1.30, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

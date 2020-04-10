@@ -29,10 +29,15 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\T
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Http.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\Microsoft.Extensions.PlatformAbstractions.dll
@@ -65,6 +70,7 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\T
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.Reactive.PlatformServices.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
@@ -112,6 +118,4 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\T
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.PaymentCenter.ServerHost.csproj.CopyComplete
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.PaymentCenter.ServerHost.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.PaymentCenter.ServerHost.pdb
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.PaymentCenter.ServerHost.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\PaymentCenter\TlhPlatform.PaymentCenter.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.PaymentCenter.ServerHost.csprojAssemblyReference.cache

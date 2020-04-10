@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
@@ -16,8 +17,6 @@ using TlhPlatform.Product.Repository;
 using TlhPlatform.Product.ServerHost.Configs.Cache;
 using TlhPlatform.Product.ServerHost.Events;
 using TlhPlatform.Product.ServerHost.Filter;
-using WebApplication1.Models.Cache;
-using IKeyManager = TlhPlatform.Infrastructure.Cache.Key.IKeyManager;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -28,20 +27,21 @@ namespace TlhPlatform.Product.ServerHost.Controllers
     public class TodoController : Controller
     {
 
-        public readonly Infrastructure.Cache.Key.IKeyManager KeyManager;
+        public readonly TlhPlatform.Infrastructure.Cache.Key.IKeyManager KeyManager;
         public readonly ITodoItemService _TodoItemService;
+        private readonly IHttpClientFactory _httpClient;
 
         /// <summary>
         /// 实例化一个EF上下文，进行数据库操作。开始初始入库一条数据
         /// </summary>
-        /// <param name="context"></param>
         /// <param name="keyManager"></param>
         /// <param name="todoItemService"></param>
-
-        public TodoController(ITodoItemService todoItemService, IKeyManager keyManager)
+        /// <param name="httpClient"></param>
+        public TodoController(ITodoItemService todoItemService, TlhPlatform.Infrastructure.Cache.Key.IKeyManager keyManager, IHttpClientFactory httpClient)
         {
             _TodoItemService = todoItemService;
             KeyManager = keyManager;
+            _httpClient = httpClient;
         }
         /// <summary>
         /// 获取所有事项
@@ -49,9 +49,9 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [TypeFilter(typeof(MyActionFilterAttribute), Arguments = new object[] { "HAHA" },IsReusable = true)]
+        [TypeFilter(typeof(MyActionFilterAttribute), Arguments = new object[] { "HAHA" }, IsReusable = true)]
         //[CustomIocFilterFactory(typeof(MyActionFilterAttribute))]
-        public async Task<IEnumerable<TodoItem>> GetTodoItems()
+        public async Task<TodoItem> GetTodoItems()
         {
             var todoItem = new TodoItem()
             {
@@ -59,11 +59,11 @@ namespace TlhPlatform.Product.ServerHost.Controllers
             };
             //EventBusCommon.Trigger(new TodoItemEventData(todoItem));
 
-           var todoItemDto= todoItem.ToModel<TodoItemDto>();
+            var todoItemDto = todoItem.ToModel<TodoItemDto>();
 
             var key = KeyManager.Get(name: ProductKey.Admin_User_Session);
 
-            // return await TodoItemService.GeTodoItems();
+            await _TodoItemService.GetByIdAsync(1);
 
             return null;
         }

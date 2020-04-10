@@ -28,6 +28,8 @@ using TlhPlatform.Infrastructure.Extents;
 using TlhPlatform.Infrastructure.RabbitMQ;
 using TlhPlatform.Product.Application;
 using TlhPlatform.Product.Application.Interfaces;
+using TlhPlatform.Product.Infrastructure;
+using TlhPlatform.Product.Infrastructure.HttpClientFactory;
 using TlhPlatform.Product.ServerHost.Events;
 using TlhPlatform.Product.ServerHost.Filter;
 
@@ -117,6 +119,8 @@ namespace TlhPlatform.Product.ServerHost
             services.AddAutoMapperException();
             #endregion
 
+         
+            services.AddHttpClient<IUserClient, UserClient>();
         }
 
 

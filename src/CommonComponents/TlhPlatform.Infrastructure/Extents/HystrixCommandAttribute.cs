@@ -61,101 +61,102 @@ namespace TlhPlatform.Infrastructure.Extents
         //而方法上标注的Attribute 对于这个方法来讲就是唯一的对象，一个方法对应一个方法上标注的Attribute对象。
         //一般我们熔断控制是针对一个方法，一个方法无论是通过几个 Person 对象调用，无论是谁调用，只要全局出现ExceptionsAllowedBeforeBreaking次错误，就会熔断，这是框架的实现，你如果认为不合理，自己改去。
         //我们在Attribute上声明一个Policy的成员变量，这样一个方法就对应一个Policy对象。
-        private Policy policy;
+        private Policy _policy;
 
         /// <summary>
         /// HystrixCommandAttribute
         /// </summary>
         /// <param name="fallBackMethod">降级的方法名</param>
-        public HystrixCommandAttribute(string fallBackMethod)
+        public HystrixCommandAttribute(string fallBackMethod, Policy policy)
         {
             this.FallBackMethod = fallBackMethod;
+            this._policy = policy;
         }
 
         public string FallBackMethod { get; set; }
 
         public override async Task Invoke(AspectContext context, AspectDelegate next)
         {
-            //一个HystrixCommand中保持一个policy对象即可
-            //其实主要是CircuitBreaker要求对于同一段代码要共享一个policy对象
-            //根据反射原理，同一个方法的MethodInfo是同一个对象，但是对象上取出来的HystrixCommandAttribute
-            //每次获取的都是不同的对象，因此以MethodInfo为Key保存到policies中，确保一个方法对应一个policy实例
-            policies.TryGetValue(context.ServiceMethod, out Policy policy);
-            lock (policies)//因为Invoke可能是并发调用，因此要确保policies赋值的线程安全
-            {
-                if (policy == null)
-                {
-                    policy = Policy.NoOpAsync();//创建一个空的Policy
-                    if (IsEnableCircuitBreaker)//熔断
-                    {
-                        policy = policy.WrapAsync(Policy.Handle<Exception>().CircuitBreakerAsync(ExceptionsAllowedBeforeBreaking, TimeSpan.FromMilliseconds(MillisecondsOfBreak),
-                            (ex, ts) =>
-                            {
-                                Console.WriteLine($"Service API OnBreak -- ts = {ts.Seconds}s, ex.message = {ex.Message}");
-                            }, () =>
-                            {
+            //    //一个HystrixCommand中保持一个policy对象即可
+            //    //其实主要是CircuitBreaker要求对于同一段代码要共享一个policy对象
+            //    //根据反射原理，同一个方法的MethodInfo是同一个对象，但是对象上取出来的HystrixCommandAttribute
+            //    //每次获取的都是不同的对象，因此以MethodInfo为Key保存到policies中，确保一个方法对应一个policy实例
+            //    policies.TryGetValue(context.ServiceMethod, out Policy policy);
+            //    lock (policies)//因为Invoke可能是并发调用，因此要确保policies赋值的线程安全
+            //    {
+            //        if (policy == null)
+            //        {
+            //            policy = Policy.NoOpAsync();//创建一个空的Policy
+            //            if (IsEnableCircuitBreaker)//熔断
+            //            {
+            //                policy = policy.WrapAsync(Policy.Handle<Exception>().CircuitBreakerAsync(ExceptionsAllowedBeforeBreaking, TimeSpan.FromMilliseconds(MillisecondsOfBreak),
+            //                    (ex, ts) =>
+            //                    {
+            //                        Console.WriteLine($"Service API OnBreak -- ts = {ts.Seconds}s, ex.message = {ex.Message}");
+            //                    }, () =>
+            //                    {
 
-                            }));
-                    }
-                    if (TimeOutMilliseconds > 0)//超时
-                    {
-                        policy = policy.WrapAsync(Policy.TimeoutAsync(() => TimeSpan.FromMilliseconds(TimeOutMilliseconds), Polly.Timeout.TimeoutStrategy.Pessimistic));
-                    }
-                    if (MaxRetryTimes > 0)//重试
-                    {
-                        policy = policy.WrapAsync(Policy.Handle<Exception>().WaitAndRetryAsync(MaxRetryTimes, i => TimeSpan.FromMilliseconds(RetryIntervalMilliseconds)));
-                    }
-                    Policy policyFallBack = Policy.Handle<Exception>().FallbackAsync(async (ctx, t) =>
-                    {
-                        AspectContext aspectContext = (AspectContext)ctx["aspectContext"];
-                        var fallBackMethod = context.ServiceMethod.DeclaringType.GetMethod(this.FallBackMethod);
-                        Object fallBackResult = fallBackMethod.Invoke(context.Implementation, context.Parameters);
-                        //不能如下这样，因为这是闭包相关，如果这样写第二次调用Invoke的时候context指向的
-                        //还是第一次的对象，所以要通过Polly的上下文来传递AspectContext
-                        //context.ReturnValue = fallBackResult;
-                        aspectContext.ReturnValue = fallBackResult;
-                    }, async (ex, t) => { });
+            //                    }));
+            //            }
+            //            if (TimeOutMilliseconds > 0)//超时
+            //            {
+            //                policy = policy.WrapAsync(Policy.TimeoutAsync(() => TimeSpan.FromMilliseconds(TimeOutMilliseconds), Polly.Timeout.TimeoutStrategy.Pessimistic));
+            //            }
+            //            if (MaxRetryTimes > 0)//重试
+            //            {
+            //                policy = policy.WrapAsync(Policy.Handle<Exception>().WaitAndRetryAsync(MaxRetryTimes, i => TimeSpan.FromMilliseconds(RetryIntervalMilliseconds)));
+            //            }
+            //            Policy policyFallBack = Policy.Handle<Exception>().FallbackAsync(async (ctx, t) =>
+            //            {
+            //                AspectContext aspectContext = (AspectContext)ctx["aspectContext"];
+            //                var fallBackMethod = context.ServiceMethod.DeclaringType.GetMethod(this.FallBackMethod);
+            //                Object fallBackResult = fallBackMethod.Invoke(context.Implementation, context.Parameters);
+            //                //不能如下这样，因为这是闭包相关，如果这样写第二次调用Invoke的时候context指向的
+            //                //还是第一次的对象，所以要通过Polly的上下文来传递AspectContext
+            //                //context.ReturnValue = fallBackResult;
+            //                aspectContext.ReturnValue = fallBackResult;
+            //            }, async (ex, t) => { });
 
-                    policy = policyFallBack.WrapAsync(policy);
-                    //放入
-                    policies.TryAdd(context.ServiceMethod, policy);
-                }
-            }
+            //            policy = policyFallBack.WrapAsync(policy);
+            //            //放入
+            //            policies.TryAdd(context.ServiceMethod, policy);
+            //        }
+            //    }
 
-            //把本地调用的AspectContext传递给Polly，主要给FallbackAsync中使用，避免闭包的坑
-            Context pollyCtx = new Context();
-            pollyCtx["aspectContext"] = context;
+            //    //把本地调用的AspectContext传递给Polly，主要给FallbackAsync中使用，避免闭包的坑
+            //    Context pollyCtx = new Context();
+            //    pollyCtx["aspectContext"] = context;
 
-            //Install-Package Microsoft.Extensions.Caching.Memory
-            if (CacheTTLMilliseconds > 0)
-            {
-                //用类名+方法名+参数的下划线连接起来作为缓存key
-                string cacheKey = "HystrixMethodCacheManager_Key_" + context.ServiceMethod.DeclaringType
-                                                                   + "." + context.ServiceMethod + string.Join("_", context.Parameters);
-                //尝试去缓存中获取。如果找到了，则直接用缓存中的值做返回值
-                if (memoryCache.TryGetValue(cacheKey, out var cacheValue))
-                {
-                    context.ReturnValue = cacheValue;
-                }
-                else
-                {
-                    //如果缓存中没有，则执行实际被拦截的方法
-                    await policy.ExecuteAsync(ctx => next(context), pollyCtx);
-                    //存入缓存中
-                    using (var cacheEntry = memoryCache.CreateEntry(cacheKey))
-                    {
-                        cacheEntry.Value = context.ReturnValue;
-                        cacheEntry.AbsoluteExpiration = DateTime.Now + TimeSpan.FromMilliseconds(CacheTTLMilliseconds);
-                    }
-                }
-            }
-            else//如果没有启用缓存，就直接执行业务方法
-            {
-                await policy.ExecuteAsync(ctx => next(context), pollyCtx);
-            }
+            //    //Install-Package Microsoft.Extensions.Caching.Memory
+            //    if (CacheTTLMilliseconds > 0)
+            //    {
+            //        //用类名+方法名+参数的下划线连接起来作为缓存key
+            //        string cacheKey = "HystrixMethodCacheManager_Key_" + context.ServiceMethod.DeclaringType
+            //                                                           + "." + context.ServiceMethod + string.Join("_", context.Parameters);
+            //        //尝试去缓存中获取。如果找到了，则直接用缓存中的值做返回值
+            //        if (memoryCache.TryGetValue(cacheKey, out var cacheValue))
+            //        {
+            //            context.ReturnValue = cacheValue;
+            //        }
+            //        else
+            //        {
+            //            //如果缓存中没有，则执行实际被拦截的方法
+            //            await policy.ExecuteAsync(ctx => next(context), pollyCtx);
+            //            //存入缓存中
+            //            using (var cacheEntry = memoryCache.CreateEntry(cacheKey))
+            //            {
+            //                cacheEntry.Value = context.ReturnValue;
+            //                cacheEntry.AbsoluteExpiration = DateTime.Now + TimeSpan.FromMilliseconds(CacheTTLMilliseconds);
+            //            }
+            //        }
+            //    }
+            //    else//如果没有启用缓存，就直接执行业务方法
+            //    {
+            //        await policy.ExecuteAsync(ctx => next(context), pollyCtx);
+            //    }
+            //}
+
         }
-
-
 
     }
 

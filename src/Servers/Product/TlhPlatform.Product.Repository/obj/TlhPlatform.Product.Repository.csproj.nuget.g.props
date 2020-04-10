@@ -13,16 +13,16 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <None Include="$(NuGetPackageRoot)smartsql.schema\4.0.65\contentFiles\any\any\SmartSqlMap.xsd" Condition="Exists('$(NuGetPackageRoot)smartsql.schema\4.0.65\contentFiles\any\any\SmartSqlMap.xsd')">
+    <None Include="$(NuGetPackageRoot)smartsql.schema\4.1.30\contentFiles\any\any\SmartSqlMap.xsd" Condition="Exists('$(NuGetPackageRoot)smartsql.schema\4.1.30\contentFiles\any\any\SmartSqlMap.xsd')">
       <NuGetPackageId>SmartSql.Schema</NuGetPackageId>
-      <NuGetPackageVersion>4.0.65</NuGetPackageVersion>
+      <NuGetPackageVersion>4.1.30</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <Private>False</Private>
       <Link>SmartSqlMap.xsd</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)smartsql.schema\4.0.65\contentFiles\any\any\SmartSqlMapConfig.xsd" Condition="Exists('$(NuGetPackageRoot)smartsql.schema\4.0.65\contentFiles\any\any\SmartSqlMapConfig.xsd')">
+    <None Include="$(NuGetPackageRoot)smartsql.schema\4.1.30\contentFiles\any\any\SmartSqlMapConfig.xsd" Condition="Exists('$(NuGetPackageRoot)smartsql.schema\4.1.30\contentFiles\any\any\SmartSqlMapConfig.xsd')">
       <NuGetPackageId>SmartSql.Schema</NuGetPackageId>
-      <NuGetPackageVersion>4.0.65</NuGetPackageVersion>
+      <NuGetPackageVersion>4.1.30</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <Private>False</Private>
       <Link>SmartSqlMapConfig.xsd</Link>

@@ -1,6 +1,3 @@
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.csprojAssemblyReference.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.AssemblyInfoInputs.cache
-C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\bin\Debug\netstandard2.1\TlhPlatform.Product.Domain.deps.json
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\bin\Debug\netstandard2.1\TlhPlatform.Product.Domain.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\bin\Debug\netstandard2.1\TlhPlatform.Product.Domain.pdb
@@ -8,6 +5,9 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\bin\Debug\netstandard2.1\TlhPlatform.Infrastructure.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\bin\Debug\netstandard2.1\TlhPlatform.Infrastructure.pdb
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\bin\Debug\netstandard2.1\TlhPlatform.Core.pdb
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.csprojAssemblyReference.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.AssemblyInfoInputs.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.AssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.csproj.CopyComplete
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Domain\obj\Debug\netstandard2.1\TlhPlatform.Product.Domain.pdb
