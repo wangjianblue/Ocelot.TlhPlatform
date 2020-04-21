@@ -58,6 +58,19 @@
           "lib/netstandard2.1/Autofac.dll": {}
         }
       },
+      "Autofac.Extensions.DependencyInjection/5.0.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.9.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -3766,6 +3779,20 @@
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.pdb",
         "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/5.0.0-rc1": {
+      "sha512": "TNifiJRxk1yUN6JR371cw51X8Ke3AvRXACcv/O83OrR8Mizv7aLWmX3E03WGQK47QPBmhiiDn1anjaNUTnSG9g==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/5.0.0-rc1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.5.0.0-rc1.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml"
       ]
     },
     "AutoMapper/9.0.0": {
@@ -10943,6 +10970,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Autofac.Extensions.DependencyInjection >= 5.0.0-rc1",
       "Microsoft.Extensions.Logging.Log4Net.AspNetCore >= 3.1.0",
       "SmartSql.DIExtension >= 4.1.53",
       "TlhPlatform.Core >= 1.0.0",
@@ -11002,6 +11030,10 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.0-rc1, )"
+          },
           "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
             "target": "Package",
             "version": "[3.1.0, )"

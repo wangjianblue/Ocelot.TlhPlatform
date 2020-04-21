@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
+using AspectCore.Configuration;
+using AspectCore.DynamicProxy;
 using AspectCore.Extensions.DependencyInjection;
-using DotNetCore.CAP;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +19,7 @@ using TlhPlatform.Core.Event;
 using TlhPlatform.Core.Events.Bus;
 using TlhPlatform.Core.Filter;
 using TlhPlatform.Infrastructure;
+using TlhPlatform.Infrastructure.AOP;
 using TlhPlatform.Infrastructure.AutoMapper;
 using TlhPlatform.Infrastructure.Extents;
 using TlhPlatform.Infrastructure.RabbitMQ;
@@ -65,7 +62,7 @@ namespace TlhPlatform.Product.ServerHost
                 //r.Filters.Add(typeof(MyResultFilterAttribute));
             });
             services.AddControllers(filters);
-       
+
 
             #endregion
 
@@ -78,11 +75,11 @@ namespace TlhPlatform.Product.ServerHost
             {
                 p.FileName = "KeyConfigList.xml";
                 p.FilePath = $"{AppDomain.CurrentDomain.SetupInformation.ApplicationBase}Configs\\Cache\\";
-            }); 
+            });
 
             #region Authorization
 
-      
+
 
             #endregion
 
@@ -110,7 +107,7 @@ namespace TlhPlatform.Product.ServerHost
             services.AddSmartSql()
                .AddRepositoryFromAssembly(options =>
                 {
-                    options.AssemblyString = "TlhPlatform.Product.Repository"; 
+                    options.AssemblyString = "TlhPlatform.Product.Repository";
                 });
             #endregion
 
@@ -119,11 +116,25 @@ namespace TlhPlatform.Product.ServerHost
             services.AddAutoMapperException();
             #endregion
 
-         
+            #region AOP切面
+
+            services.ConfigureDynamicProxy(config =>
+            {
+                //CustomInterceptor拦截器类
+                //拦截代理所有Service结尾的类
+                config.Interceptors.AddTyped<CustomInterceptor>(Predicates.ForService("*Service"));
+                //CustomInterceptor这个是需要全局拦截的拦截器
+                //config.Interceptors.AddTyped<CustomInterceptor>();
+            });
+
+            #endregion
+
+
+
             services.AddHttpClient<IUserClient, UserClient>();
         }
 
-
+  
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

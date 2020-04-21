@@ -600,6 +600,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0-rc1, )"
+            },
             "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
               "target": "Package",
               "version": "[3.1.0, )"

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TlhPlatform.Infrastructure.AOP;
 
 namespace TlhPlatform.Infrastructure.Extents
 {

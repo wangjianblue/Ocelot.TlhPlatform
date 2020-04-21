@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using AspectCore.Extensions.DependencyInjection;
+using Autofac.Extensions.DependencyInjection;
 
 namespace TlhPlatform.Product.ServerHost
 {
@@ -23,7 +25,8 @@ namespace TlhPlatform.Product.ServerHost
                     logging.AddFilter("System",LogLevel.Warning);
                     logging.AddFilter("Microsoft",LogLevel.Warning);
                     logging.AddLog4Net("Configs/Exception/log4net.config"); 
-                })
+                }) 
+                .UseServiceProviderFactory(new DynamicProxyServiceProviderFactory())//autofac ÒÀÀµ×¢Èë
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

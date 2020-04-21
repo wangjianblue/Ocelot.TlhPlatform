@@ -1,0 +1,10 @@
+2020-04-10 09:30:44,018 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-10 09:30:44,033 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-10 09:30:44,035 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-10 09:30:44,048 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-10 09:30:45,024 [4] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-10 09:32:36,029 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-10 09:32:36,042 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-10 09:32:36,044 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-10 09:32:36,046 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-10 09:32:36,560 [9] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
