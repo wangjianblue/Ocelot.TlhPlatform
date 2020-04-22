@@ -12,6 +12,10 @@
     <Folder Include="Request\" />
     <Folder Include="Respone\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.6.0" />
+  </ItemGroup>
  
 
 </Project>

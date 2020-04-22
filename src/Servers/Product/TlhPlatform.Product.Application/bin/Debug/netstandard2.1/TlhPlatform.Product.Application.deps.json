@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "TlhPlatform.Product.Application/1.0.0": {
         "dependencies": {
+          "MailKit": "2.6.0",
           "TlhPlatform.Product.Domain": "1.0.0",
           "TlhPlatform.Product.Infrastructure": "1.0.0",
           "TlhPlatform.Product.Repository": "1.0.0"
@@ -130,6 +131,17 @@
           "lib/netstandard1.3/Consul.dll": {
             "assemblyVersion": "0.7.2.6",
             "fileVersion": "0.7.2.6"
+          }
+        }
+      },
+      "Dapper/2.0.35": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.35.21366"
           }
         }
       },
@@ -281,6 +293,20 @@
           "lib/netstandard2.0/Jint.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "2.11.58.0"
+          }
+        }
+      },
+      "MailKit/2.6.0": {
+        "dependencies": {
+          "MimeKit": "2.6.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Net.Security": "4.3.2",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MailKit.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.6.0.0"
           }
         }
       },
@@ -869,6 +895,21 @@
           }
         }
       },
+      "MimeKit/2.6.0": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.5",
+          "System.Data.Common": "4.3.0",
+          "System.Globalization.Extensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.5.0",
+          "System.Text.Encoding.CodePages": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MimeKit.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
       "MongoDB.Bson/2.10.3": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -1104,6 +1145,14 @@
           "lib/netstandard2.0/Polly.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.2.0.0"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.5": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.5.50"
           }
         }
       },
@@ -2673,6 +2722,7 @@
         "dependencies": {
           "Autofac": "5.1.2",
           "Castle.Core": "4.4.0",
+          "Dapper": "2.0.35",
           "JetBrains.Annotations": "2019.1.3",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.CSharp": "4.7.0",
@@ -2685,6 +2735,7 @@
           "Nito.AsyncEx": "5.0.0",
           "Nito.AsyncEx.Coordination": "5.0.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
+          "System.Data.SqlClient": "4.8.1",
           "System.Linq.Queryable": "4.3.0",
           "System.Reflection.Emit.Lightweight": "4.7.0"
         },
@@ -2727,6 +2778,7 @@
       },
       "TlhPlatform.Product.Domain/1.0.0": {
         "dependencies": {
+          "MailKit": "2.6.0",
           "TlhPlatform.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -2824,6 +2876,13 @@
       "path": "consul/0.7.2.6",
       "hashPath": "consul.0.7.2.6.nupkg.sha512"
     },
+    "Dapper/2.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/xAgd8BO8EDnJ0sURWEV8LptHHvTKxoYiT63YUF2U/yWE2VyUCqR2jcrtEyNngT9Kjzppecz95UKiBla3PnR7g==",
+      "path": "dapper/2.0.35",
+      "hashPath": "dapper.2.0.35.nupkg.sha512"
+    },
     "DnsClient/1.3.1": {
       "type": "package",
       "serviceable": true,
@@ -2893,6 +2952,13 @@
       "sha512": "sha512-obRlPnuSmbjO7I2bfuKc1d+K1LB3xyg1Cnm2MT7PGUOHOntcdR96pDhsQnWBI5Dhxqr1Bj5/odpNi/B+AwVlPA==",
       "path": "jint/2.11.58",
       "hashPath": "jint.2.11.58.nupkg.sha512"
+    },
+    "MailKit/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fY2ulWfn5xzulQfqTW66pLOrL26Puzmhl+VsXuqrVBhv5dWFwwKerxQM4HmMwr5Pd/ak9/5xSiFhIeXeD+HC2w==",
+      "path": "mailkit/2.6.0",
+      "hashPath": "mailkit.2.6.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.0.0": {
       "type": "package",
@@ -3251,6 +3317,13 @@
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
+    "MimeKit/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-254R07ICLw0mIEhXEcYsALGF7Tgt8mAOfD7lcui1XXBdQGbpj5WFOzx9TojSMPBt2ZRBfolWhoSC9tnTVY7wRw==",
+      "path": "mimekit/2.6.0",
+      "hashPath": "mimekit.2.6.0.nupkg.sha512"
+    },
     "MongoDB.Bson/2.10.3": {
       "type": "package",
       "serviceable": true,
@@ -3369,6 +3442,13 @@
       "sha512": "sha512-fbtSRyqVSd5AS7O4Pm2Mnw7zKKJk7Z3rOfNnKSTfPkTxM8Z1JJFZzzjqLAOTG6AyUkormSWMO2AhdlygF/384Q==",
       "path": "polly/7.2.0",
       "hashPath": "polly.7.2.0.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EaCgmntbH1sOzemRTqyXSqYjB6pLH7VCYHhhDYZ59guHSD5qPwhIYa7kfy0QUlmTRt9IXhaXdFhNuBUArp70Ng==",
+      "path": "portable.bouncycastle/1.8.5",
+      "hashPath": "portable.bouncycastle.1.8.5.nupkg.sha512"
     },
     "Quartz/3.0.7": {
       "type": "package",

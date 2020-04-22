@@ -13,6 +13,7 @@ using TlhPlatform.Product.Application;
 using TlhPlatform.Product.Application.Interfaces;
 using TlhPlatform.Product.Domain.Dto;
 using TlhPlatform.Product.Domain.Entity;
+using TlhPlatform.Product.Domain.Mime;
 using TlhPlatform.Product.Repository;
 using TlhPlatform.Product.ServerHost.Configs.Cache;
 using TlhPlatform.Product.ServerHost.Events;
@@ -30,6 +31,7 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         public readonly TlhPlatform.Infrastructure.Cache.Key.IKeyManager KeyManager;
         public readonly ITodoItemService _TodoItemService;
         private readonly IHttpClientFactory _httpClient;
+        private readonly IMessageService _messageService;
 
         /// <summary>
         /// 实例化一个EF上下文，进行数据库操作。开始初始入库一条数据
@@ -37,11 +39,12 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         /// <param name="keyManager"></param>
         /// <param name="todoItemService"></param>
         /// <param name="httpClient"></param>
-        public TodoController(ITodoItemService todoItemService, TlhPlatform.Infrastructure.Cache.Key.IKeyManager keyManager, IHttpClientFactory httpClient)
+        public TodoController(ITodoItemService todoItemService, TlhPlatform.Infrastructure.Cache.Key.IKeyManager keyManager, IHttpClientFactory httpClient, IMessageService messageService)
         {
             _TodoItemService = todoItemService;
             KeyManager = keyManager;
             _httpClient = httpClient;
+            _messageService = messageService;
         }
         /// <summary>
         /// 获取所有事项
@@ -64,6 +67,14 @@ namespace TlhPlatform.Product.ServerHost.Controllers
             var key = KeyManager.Get(name: ProductKey.Admin_User_Session);
 
             await _TodoItemService.GetByIdAsync(1);
+
+
+            _messageService.SendEmail(null, null, new EmailMessage()
+            {
+                Subject = "主题",
+                Body = String.Format("1212")
+            });
+
 
             return null;
         }

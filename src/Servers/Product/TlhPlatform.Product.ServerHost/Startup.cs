@@ -99,6 +99,14 @@ namespace TlhPlatform.Product.ServerHost
 
             //#endregion
             services.AddTransient<ITodoItemService, TodoItemService>();
+            services.AddSingleton<IMessageService>(new MessageService((action) =>
+            {
+                action.UserName = "wangjianblue";
+                action.PassWord = "wangfeng";
+                action.Name = "Gary_wang";
+                action.Address = "gary_wang@huatke.com";
+            }));
+
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventEmailHandler>();
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSMSHandler>();
 
@@ -134,7 +142,7 @@ namespace TlhPlatform.Product.ServerHost
             services.AddHttpClient<IUserClient, UserClient>();
         }
 
-  
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

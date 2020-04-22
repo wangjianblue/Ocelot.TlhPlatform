@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TlhPlatform.Product.Domain\TlhPlatform.Product.Domain.csproj" />
     <ProjectReference Include="..\TlhPlatform.Product.Infrastructure\TlhPlatform.Product.Infrastructure.csproj" />
     <ProjectReference Include="..\TlhPlatform.Product.Repository\TlhPlatform.Product.Repository.csproj" />
