@@ -8,6 +8,6 @@ namespace TlhPlatform.Core.Domain
 {
     public interface IEntity
     {
-        string Id { get; set; }
+        
     }
 }

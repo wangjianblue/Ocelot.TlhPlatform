@@ -10,6 +10,8 @@ namespace TlhPlatform.Order.Infrastructure.Repository
     {   
         public async Task<string> Create(Domain.OrderAggregate.Order order)
         {
+     
+
             throw new NotImplementedException();
         }
 
