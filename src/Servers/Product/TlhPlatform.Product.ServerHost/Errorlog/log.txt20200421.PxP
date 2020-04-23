@@ -1,0 +1,107 @@
+2020-04-21 16:38:12,924 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-21 16:38:12,938 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-21 16:38:12,939 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-21 16:38:12,942 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-21 16:38:16,050 [9] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-21 16:38:40,206 [13] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] Starting.
+2020-04-21 16:38:40,332 [13] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] Starting.
+2020-04-21 16:38:40,336 [13] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - BuildSqlMap.Child ->> Path :[C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Maps\TodoItem.xml].
+2020-04-21 16:38:40,383 [13] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] End.
+2020-04-21 16:38:40,402 [13] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] End.
+2020-04-21 16:38:40,438 [13] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository] Start
+2020-04-21 16:38:40,460 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Insert->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:False]
+2020-04-21 16:38:40,463 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Update->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-21 16:38:40,466 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdate->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-21 16:38:40,469 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Delete->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-21 16:38:40,473 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteById->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-21 16:38:40,476 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntity->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-21 16:38:40,479 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetById->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-21 16:38:40,482 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecord->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:False]
+2020-04-21 16:38:40,486 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPage->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:False]
+2020-04-21 16:38:40,489 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Query->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:False]
+2020-04-21 16:38:40,491 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExist->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:False]
+2020-04-21 16:38:40,493 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:InsertAsync->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:True]
+2020-04-21 16:38:40,496 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:UpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-21 16:38:40,499 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-21 16:38:40,503 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-21 16:38:40,505 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteByIdAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-21 16:38:40,508 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntityAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-21 16:38:40,512 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetByIdAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-21 16:38:40,514 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecordAsync->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:True]
+2020-04-21 16:38:40,518 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPageAsync->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:True]
+2020-04-21 16:38:40,521 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryAsync->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:True]
+2020-04-21 16:38:40,525 [13] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExistAsync->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:True]
+2020-04-21 16:38:40,546 [13] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository],ImplType.FullName:[TodoItemRepository_Impl_8ae8247713a14980bcd4cab20fdbe755] End
+2020-04-21 16:38:46,879 [13] INFO  TlhPlatform.Product.ServerHost.Filter.MyActionFilterAttribute - 执行TlhPlatform.Product.ServerHost.Filter.MyActionFilterAttribute
+2020-04-21 16:39:01,596 [13] DEBUG SmartSql.Middlewares.PrepareStatementMiddleware - Statement.Id:[TodoItem.GetEntity],Sql:
+Select Top 1 T.* From TodoItem T With(NoLock)
+         Where   
+                    T.Id= @Id
+Parameters:[Id=1]
+Sql with parameter value: 
+Select Top 1 T.* From TodoItem T With(NoLock)
+         Where   
+                    T.Id= 1
+2020-04-21 16:39:01,648 [13] DEBUG SmartSql.DbSession.DefaultDbSession - OpenConnection to TlhPlatform_Product .
+2020-04-21 16:39:18,576 [5] DEBUG SmartSql.Command.CommandExecuter - Operation:ExecuteReaderAsync Statement.Id:TodoItem.GetEntity Execute Taken:16962.
+2020-04-21 16:39:18,594 [5] DEBUG SmartSql.DbSession.DefaultDbSession - Statement.Id:TodoItem.GetEntity Invoke Taken:17072.
+2020-04-21 16:39:18,603 [5] DEBUG SmartSql.DbSession.DefaultDbSession - Dispose. 
+2020-04-21 16:39:19,630 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+AspectCore.DynamicProxy.AspectInvocationException: Exception has been thrown by the aspect of an invocation. ---> OpenConnection Unable to open connection to TlhPlatform_Product..
+ ---> SmartSql.Exceptions.SmartSqlException: OpenConnection Unable to open connection to TlhPlatform_Product.
+ ---> System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at SmartSql.DbSession.DefaultDbSession.OpenAsync(CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at SmartSql.DbSession.DefaultDbSession.OpenAsync(CancellationToken cancellationToken)
+   at SmartSql.DbSession.DefaultDbSession.OpenAsync()
+   at SmartSql.Command.CommandExecuter.<>c__DisplayClass18_0.<<ExecuteReaderAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SmartSql.Command.CommandExecuter.ExecuteWrapAsync[TResult](Func`1 executeImplAsync, ExecutionContext executionContext, String operation)
+   at SmartSql.Command.CommandExecuter.ExecuteReaderAsync(ExecutionContext executionContext)
+   at SmartSql.Middlewares.CommandExecuterMiddleware.InvokeAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.AbstractMiddleware.InvokeNextAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.DataSourceFilterMiddleware.InvokeAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.AbstractMiddleware.InvokeNextAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.TransactionMiddleware.InvokeAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.AbstractMiddleware.InvokeNextAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.AbstractMiddleware.InvokeAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.AbstractMiddleware.InvokeNextAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.Middlewares.InitializerMiddleware.InvokeAsync[TResult](ExecutionContext executionContext)
+   at SmartSql.DbSession.DefaultDbSession.InvokeAsync[TResult](AbstractRequestContext requestContext)
+   at SmartSql.DbSession.DefaultDbSession.QuerySingleAsync[TResult](AbstractRequestContext requestContext)
+   at SmartSql.SqlMapper.ExecuteImplAsync[TResult](Func`2 executeFunc)
+   at SmartSql.SqlMapper.QuerySingleAsync[TResult](AbstractRequestContext requestContext)
+   at TlhPlatform.Product.Application.TodoItemService.GetByIdAsync(Int64 id) in C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.Application\TodoItemService.cs:line 25
+   at AspectCore.DynamicProxy.AspectContextRuntimeExtensions.AwaitIfAsync(AspectContext aspectContext, Object returnValue)
+   at AspectCore.DynamicProxy.RuntimeAspectContext.Complete()
+   at TlhPlatform.Infrastructure.AOP.CustomInterceptor.Invoke(AspectContext context, AspectDelegate next) in C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\CommonComponents\TlhPlatform.Infrastructure\AOP\CustomInterceptor.cs:line 16
+   at AspectCore.DynamicProxy.AspectActivator.InvokeTask[TResult](AspectActivatorContext activatorContext)
+   --- End of inner exception stack trace ---
+   at AspectCore.DynamicProxy.AspectActivator.InvokeTask[TResult](AspectActivatorContext activatorContext)
+   at TlhPlatform.Product.ServerHost.Controllers.TodoController.GetTodoItems() in C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\Controllers\TodoController.cs:line 66
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

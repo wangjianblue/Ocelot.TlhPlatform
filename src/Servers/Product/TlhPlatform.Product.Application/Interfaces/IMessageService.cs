@@ -15,7 +15,7 @@ namespace TlhPlatform.Product.Application.Interfaces
         /// <param name="cc">抄送人集合</param>
         /// <param name="email">邮件标题和内容</param>
         /// <param name="mailAction">发送人</param>
-        void SendEmail(IEnumerable<InternetAddress> receiving, IEnumerable<InternetAddress> cc, EmailMessage email,Action<MailInfoData> mailAction = null);
+        void SendEmail(EmailMessage email, Action<MailInfoData> mailAction = null);
 
         /// <summary>
         /// 

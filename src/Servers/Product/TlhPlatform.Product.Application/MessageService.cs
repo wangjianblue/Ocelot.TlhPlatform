@@ -1,9 +1,11 @@
 ﻿using MimeKit;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MimeKit.Text;
+using TlhPlatform.Infrastructure.MongoDB;
 using TlhPlatform.Product.Application.Interfaces;
 using TlhPlatform.Product.Domain.Mime;
 
@@ -15,21 +17,23 @@ namespace TlhPlatform.Product.Application
     public class MessageService : IMessageService
     {
         public readonly MailInfoData MailInfo = null;
+        public readonly IMongoRepository MongoRepository;
 
-        public MessageService(Action<MailInfoData> configure)
+        public MessageService(IMongoRepository iMongoRepository,Action<MailInfoData> configure)
         {
+            MongoRepository = iMongoRepository;
             configure(MailInfo);
         }
 
         /// <summary>
         /// 发送邮件
-        /// </summary>
-        /// <param name="receiving">收件人集合</param>
-        /// <param name="cc">抄送人集合</param>
+        /// </summary> 
         /// <param name="email">邮件标题和内容</param>
         /// <param name="mailAction">发送人</param>
-        public void SendEmail(IEnumerable<InternetAddress> receiving, IEnumerable<InternetAddress> cc, EmailMessage email, Action<MailInfoData> mailAction = null)
+        public void SendEmail(EmailMessage email, Action<MailInfoData> mailAction = null)
         {
+            if (email?.Receiving.Count() == null)
+                return;
             mailAction?.Invoke(MailInfo);
             var messageToSend = new MimeMessage
             {
@@ -40,8 +44,8 @@ namespace TlhPlatform.Product.Application
             try
             {
                 messageToSend.From.Add(new MailboxAddress(MailInfo.Name, MailInfo.Address));
-                messageToSend.To.AddRange(receiving);
-                messageToSend.Cc.AddRange(cc);
+                messageToSend.To.AddRange(email.Receiving);
+                messageToSend.Cc.AddRange(email.Cc);
                 using var smtp = new MailKit.Net.Smtp.SmtpClient();
 
                 smtp.MessageSent += (sender, args) =>
@@ -60,6 +64,7 @@ namespace TlhPlatform.Product.Application
                          * 记录人MoogDB中
                          *
                          */
+                        MongoRepository.AddAsync(email);
                     }
                 };
             }
@@ -67,8 +72,8 @@ namespace TlhPlatform.Product.Application
             {
                 Console.WriteLine(e);
                 throw;
-            } 
-        } 
+            }
+        }
         public void SendSMS()
         {
 

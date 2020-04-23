@@ -69,7 +69,7 @@ namespace TlhPlatform.Product.ServerHost.Controllers
             await _TodoItemService.GetByIdAsync(1);
 
 
-            _messageService.SendEmail(null, null, new EmailMessage()
+            _messageService.SendEmail( new EmailMessage()
             {
                 Subject = "主题",
                 Body = String.Format("1212")

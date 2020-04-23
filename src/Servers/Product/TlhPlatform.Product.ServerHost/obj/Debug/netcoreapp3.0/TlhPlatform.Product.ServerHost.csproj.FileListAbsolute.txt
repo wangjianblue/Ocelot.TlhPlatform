@@ -298,3 +298,9 @@ C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlat
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Dapper.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\MailKit.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\MimeKit.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\obj\Debug\netcoreapp3.0\TlhPlatform.Product.ServerHost.genruntimeconfig.cache

@@ -1,0 +1,7 @@
+﻿<configuration>  
+  <list> 
+    <item name="Admin_User_Session" key="Admin:User:Session:{0}" validTime="60" enabled="true"></item> 
+    <item name="Admin_User_List" key="Admin:User:List" validTime="30" enabled="true"></item> 
+    <item name="Admin_User_Search" key="Admin:User:Search:{0}:{1}:{2}" validTime="5" enabled="true"></item>
+  </list>
+</configuration>

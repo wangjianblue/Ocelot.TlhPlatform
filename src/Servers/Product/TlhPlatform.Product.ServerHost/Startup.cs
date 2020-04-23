@@ -25,6 +25,7 @@ using TlhPlatform.Infrastructure.Extents;
 using TlhPlatform.Infrastructure.RabbitMQ;
 using TlhPlatform.Product.Application;
 using TlhPlatform.Product.Application.Interfaces;
+using TlhPlatform.Product.Domain.Mime;
 using TlhPlatform.Product.Infrastructure;
 using TlhPlatform.Product.Infrastructure.HttpClientFactory;
 using TlhPlatform.Product.ServerHost.Events;
@@ -99,13 +100,19 @@ namespace TlhPlatform.Product.ServerHost
 
             //#endregion
             services.AddTransient<ITodoItemService, TodoItemService>();
-            services.AddSingleton<IMessageService>(new MessageService((action) =>
+
+            #region Email
+            var eMailOptions = Configuration.GetSection("MailInfoData").Get<MailInfoData>(); 
+            services.AddSingleton<IMessageService>(new MessageService(null, (action) =>
             {
-                action.UserName = "wangjianblue";
-                action.PassWord = "wangfeng";
-                action.Name = "Gary_wang";
-                action.Address = "gary_wang@huatke.com";
+                action.UserName = eMailOptions.UserName;
+                action.PassWord = eMailOptions.PassWord;
+                action.Name = eMailOptions.Name;
+                action.Address = eMailOptions.Address;
             }));
+
+            #endregion
+
 
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventEmailHandler>();
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSMSHandler>();
