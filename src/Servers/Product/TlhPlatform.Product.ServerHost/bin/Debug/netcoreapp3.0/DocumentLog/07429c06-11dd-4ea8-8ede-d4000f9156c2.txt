@@ -1,0 +1,2 @@
+Connected to smtp://mail.ee-post.com:110/?starttls=when-available
+S: +OK pop.ee-post.com pop service ready

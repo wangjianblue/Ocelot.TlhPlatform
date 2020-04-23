@@ -1,0 +1,24 @@
+Connected to smtp://mail.ee-post.com:25/?starttls=when-available
+S: 220 smtp.ee-post.com Service ready
+C: EHLO [192.168.135.52]
+S: 250-smtp.ee-post.com
+S: 250-AUTH LOGIN PLAIN
+S: 250-AUTH=LOGIN PLAIN
+S: 250-PIPELINING
+S: 250-STARTTLS
+S: 250-HELP
+S: 250-SIZE 104857600
+S: 250 8BITMIME
+C: STARTTLS
+S: 220 Ready to start TLS
+C: EHLO [192.168.135.52]
+S: 250-smtp.ee-post.com
+S: 250-AUTH LOGIN PLAIN
+S: 250-AUTH=LOGIN PLAIN
+S: 250-PIPELINING
+S: 250-STARTTLS
+S: 250-HELP
+S: 250-SIZE 104857600
+S: 250 8BITMIME
+C: AUTH PLAIN AEdhcnlfd2FuZ0BodWF0ZWsuY29tAGJjMTIzXyMk
+S: 235 Authentication ok, go ahead

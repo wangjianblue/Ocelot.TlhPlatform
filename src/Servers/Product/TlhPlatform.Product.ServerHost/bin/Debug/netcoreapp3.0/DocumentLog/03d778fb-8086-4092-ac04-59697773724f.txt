@@ -1,0 +1,18 @@
+Connected to smtps://smtp.163.com:465/
+S: 220 163.com Anti-spam GT for Coremail System (163com[20141201])
+C: EHLO [192.168.135.52]
+S: 250-mail
+S: 250-PIPELINING
+S: 250-AUTH LOGIN PLAIN
+S: 250-AUTH=LOGIN PLAIN
+S: 250-coremail 1Uxr2xKj7kG0xkI17xGrU7I0s8FY2U3Uj8Cz28x1UUUUU7Ic2I0Y2UrkmdeTUCa0xDrUUUUj
+S: 250-STARTTLS
+S: 250 8BITMIME
+C: AUTH PLAIN AHdhbmdqaWFuYmx1ZUAxNjMuY29tAHdhbmdqaWFuZmVuZzE2Mw==
+S: 535 Error: authentication failed
+C: AUTH LOGIN
+S: 334 dXNlcm5hbWU6
+C: d2FuZ2ppYW5ibHVlQDE2My5jb20=
+S: 334 UGFzc3dvcmQ6
+C: d2FuZ2ppYW5mZW5nMTYz
+S: 535 Error: authentication failed

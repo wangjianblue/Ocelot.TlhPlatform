@@ -114,13 +114,15 @@ namespace TlhPlatform.Product.ServerHost
             #endregion
 
             #region Email
-            var eMailOptions = Configuration.GetSection("MailInfoData").Get<MailInfoData>(); 
+            var eMailOptions = Configuration.GetSection("MailInfoData").Get<SendServerConfigurationEntity>(); 
             services.AddSingleton<IMessageService>(new MessageService(null, (action) =>
             {
-                action.UserName = eMailOptions.UserName;
-                action.PassWord = eMailOptions.PassWord;
-                action.Name = eMailOptions.Name;
-                action.Address = eMailOptions.Address;
+                action.SenderAccount = eMailOptions.SenderAccount;
+                action.SenderPassword = eMailOptions.SenderPassword;
+                action.Host = eMailOptions.Host;
+                action.Port = eMailOptions.Port;
+                action.IsSsl = eMailOptions.IsSsl;
+                action.MailEncoding = eMailOptions.MailEncoding;
             }));
 
             #endregion

@@ -10,12 +10,10 @@ namespace TlhPlatform.Product.Application.Interfaces
     {
         /// <summary>
         /// 发送邮件
-        /// </summary>
-        /// <param name="receiving">收件人集合</param>
-        /// <param name="cc">抄送人集合</param>
+        /// </summary> 
         /// <param name="email">邮件标题和内容</param>
         /// <param name="mailAction">发送人</param>
-        void SendEmail(EmailMessage email, Action<MailInfoData> mailAction = null);
+       void SendEmail(MailBodyEntity email, Action<SendServerConfigurationEntity> mailAction = null);
 
         /// <summary>
         /// 

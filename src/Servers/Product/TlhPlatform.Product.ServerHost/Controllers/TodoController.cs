@@ -29,7 +29,7 @@ namespace TlhPlatform.Product.ServerHost.Controllers
     {
 
         public readonly TlhPlatform.Infrastructure.Cache.Key.IKeyManager KeyManager;
-        public readonly ITodoItemService _TodoItemService; 
+        public readonly ITodoItemService _TodoItemService;
         private readonly IMessageService _messageService;
 
         /// <summary>
@@ -38,10 +38,10 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         /// <param name="keyManager"></param>
         /// <param name="todoItemService"></param>
         /// <param name="httpClient"></param>
-        public TodoController(ITodoItemService todoItemService, TlhPlatform.Infrastructure.Cache.Key.IKeyManager keyManager ,IMessageService messageService)
+        public TodoController(ITodoItemService todoItemService, TlhPlatform.Infrastructure.Cache.Key.IKeyManager keyManager, IMessageService messageService)
         {
             _TodoItemService = todoItemService;
-            KeyManager = keyManager; 
+            KeyManager = keyManager;
             _messageService = messageService;
         }
         /// <summary>
@@ -67,15 +67,32 @@ namespace TlhPlatform.Product.ServerHost.Controllers
             await _TodoItemService.GetByIdAsync(1);
 
 
-            _messageService.SendEmail( new EmailMessage()
-            {
-                Subject = "主题",
-                Body = String.Format("1212")
-            });
+            //_messageService.SendEmail( new EmailMessage()
+            //{
+            //    Subject = "主题",
+            //    Body = String.Format("1212")
+            //});
 
 
             return null;
         }
+        [HttpPost]
+        public void SendEMail(MailBodyEntity mailBodyEntity1)
+        {
+            var recipients = new List<string>();
+            recipients.Add("446475053@qq.com");
+            var mailBodyEntity = new MailBodyEntity()
+            {
+                Body = "这是一个测试邮件body内容<a href='http://www.baidu.com'>123</a>",
+                Receiving = recipients,
+                Sender = "邮件的发件人",
+                SenderAddress = "gary_wang@huatek.com",
+                Subject = "测试邮件是否可以发送的标题",
+            };
+
+            _messageService.SendEmail(mailBodyEntity);
+        }
+
 
         /// <summary>
         /// 删除一个TodoItem

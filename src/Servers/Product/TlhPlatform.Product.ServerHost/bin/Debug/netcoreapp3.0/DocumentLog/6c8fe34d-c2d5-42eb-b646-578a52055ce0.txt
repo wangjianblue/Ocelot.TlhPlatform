@@ -1,0 +1,52 @@
+Connected to smtp://mail.ee-post.com:25/?starttls=when-available
+S: 220 smtp.ee-post.com Service ready
+C: EHLO [192.168.135.52]
+S: 250-smtp.ee-post.com
+S: 250-AUTH LOGIN PLAIN
+S: 250-AUTH=LOGIN PLAIN
+S: 250-PIPELINING
+S: 250-STARTTLS
+S: 250-HELP
+S: 250-SIZE 104857600
+S: 250 8BITMIME
+C: STARTTLS
+S: 220 Ready to start TLS
+C: EHLO [192.168.135.52]
+S: 250-smtp.ee-post.com
+S: 250-AUTH LOGIN PLAIN
+S: 250-AUTH=LOGIN PLAIN
+S: 250-PIPELINING
+S: 250-STARTTLS
+S: 250-HELP
+S: 250-SIZE 104857600
+S: 250 8BITMIME
+C: AUTH PLAIN AEdhcnlfd2FuZ0BodWF0ZWsuY29tAGJjMTIzXyMk
+S: 235 Authentication ok, go ahead
+C: MAIL FROM:<wangjianblue@163.com> SIZE=696 BODY=8BITMIME
+C: RCPT TO:<446475053@qq.com>
+S: 250 Ok
+S: 250 Ok
+C: DATA
+S: 354 Start mail input; end with CRLF.CRLF
+C: From: =?utf-8?b?6YKu5Lu255qE5Y+R5Lu25Lq6?= <wangjianblue@163.com>
+C: Date: Thu, 23 Apr 2020 16:57:54 +0800
+C: Subject: =?utf-8?b?5rWL6K+V6YKu5Lu25piv5ZCm5Y+v5Lul5Y+R6YCB55qE5qCH6aKY?=
+C: Message-Id: <ATSRGCH3GAU4.31Y72E3DFLC02@01-455>
+C: To: 446475053@qq.com
+C: MIME-Version: 1.0
+C: Content-Type: multipart/mixed; boundary="=-IA/6WQTexWT03tzN6ETdGQ=="
+C: 
+C: --=-IA/6WQTexWT03tzN6ETdGQ==
+C: Content-Type: multipart/alternative; boundary="=-0Jrv7+LgiWQzCJqUuipewg=="
+C: 
+C: --=-0Jrv7+LgiWQzCJqUuipewg==
+C: Content-Type: text/html; charset=utf-8
+C: Content-Transfer-Encoding: 8bit
+C: 
+C: 这是一个测试邮件body内容<a href='http://www.baidu.com'>123</a>
+C: --=-0Jrv7+LgiWQzCJqUuipewg==--
+C: 
+C: --=-IA/6WQTexWT03tzN6ETdGQ==--
+C: .
+S: 550 mail from address and account name differ
+C: RSET
