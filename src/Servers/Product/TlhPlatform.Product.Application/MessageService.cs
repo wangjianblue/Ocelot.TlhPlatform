@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MailKit.Security;
 using MimeKit.Text;
 using TlhPlatform.Infrastructure.MongoDB;
 using TlhPlatform.Product.Application.Interfaces;
@@ -19,10 +20,10 @@ namespace TlhPlatform.Product.Application
         public readonly MailInfoData MailInfo = null;
         public readonly IMongoRepository MongoRepository;
 
-        public MessageService(IMongoRepository iMongoRepository,Action<MailInfoData> configure)
+        public MessageService(IMongoRepository iMongoRepository, Action<MailInfoData> configure)
         {
-            MongoRepository = iMongoRepository;
-            configure(MailInfo);
+            MongoRepository = iMongoRepository; 
+            configure(MailInfo = new MailInfoData());
         }
 
         /// <summary>
@@ -53,7 +54,7 @@ namespace TlhPlatform.Product.Application
                     if (smtp != null)
                     {
                         smtp.ServerCertificateValidationCallback = (s, c, h, e) => true;
-                        smtp.ConnectAsync(MailInfo.Host, MailInfo.Port, MailInfo.SetOptions);
+                        smtp.ConnectAsync(MailInfo.Host, MailInfo.Port, Enum.Parse<SecureSocketOptions>(MailInfo.SetOptions));
                         // ReSharper disable once AccessToDisposedClosure
                         smtp.AuthenticateAsync(MailInfo.UserName, MailInfo.PassWord);
                         // ReSharper disable once AccessToDisposedClosure

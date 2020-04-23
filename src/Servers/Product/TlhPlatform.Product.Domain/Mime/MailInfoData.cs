@@ -12,7 +12,7 @@ namespace TlhPlatform.Product.Domain.Mime
 
         public string Host { get; set; } = "smtp-mail.outlook.com";
         public int Port { get; set; } = 587;
-        public SecureSocketOptions SetOptions { get; set; } = SecureSocketOptions.StartTls;
+        public string SetOptions { get; set; } = SecureSocketOptions.StartTls.ToString();
 
         public string Name { get; set; }
         public string Address { get; set; }

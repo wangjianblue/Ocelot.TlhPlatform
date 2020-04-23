@@ -35,13 +35,7 @@ namespace TlhPlatform.Product.Application
             return await _todoItemRepository.GetByIdAsync(id);
         }
 
-        public async Task<long> AddAsync(long id)
-        {
-            return await _todoItemRepository1.InsertAsync(new TodoItem()
-            {
-            });
-
-        }
+     
      
     }
 }

@@ -1,0 +1,195 @@
+2020-04-23 10:01:55,356 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-23 10:01:55,378 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-23 10:01:55,410 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-23 10:01:55,517 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-23 10:01:57,093 [5] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-23 10:03:01,692 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] Starting.
+2020-04-23 10:03:01,863 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] Starting.
+2020-04-23 10:03:01,866 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - BuildSqlMap.Child ->> Path :[C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Maps\TodoItem.xml].
+2020-04-23 10:03:01,921 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] End.
+2020-04-23 10:03:01,938 [4] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] End.
+2020-04-23 10:03:01,975 [4] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository] Start
+2020-04-23 10:03:02,000 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Insert->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:03:02,002 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Update->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-23 10:03:02,005 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdate->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-23 10:03:02,009 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Delete->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-23 10:03:02,014 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteById->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-23 10:03:02,020 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntity->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-23 10:03:02,024 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetById->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-23 10:03:02,027 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecord->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:03:02,030 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPage->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:False]
+2020-04-23 10:03:02,037 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Query->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:False]
+2020-04-23 10:03:02,040 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExist->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:03:02,043 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:InsertAsync->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:03:02,046 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:UpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-23 10:03:02,049 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-23 10:03:02,056 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-23 10:03:02,059 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteByIdAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-23 10:03:02,062 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntityAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-23 10:03:02,066 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetByIdAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-23 10:03:02,071 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecordAsync->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:03:02,074 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPageAsync->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:True]
+2020-04-23 10:03:02,078 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryAsync->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:True]
+2020-04-23 10:03:02,080 [4] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExistAsync->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:03:02,118 [4] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository],ImplType.FullName:[TodoItemRepository_Impl_6d35d387f8e948e9a75be469cdc7d037] End
+2020-04-23 10:03:02,808 [4] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TlhPlatform.Product.Domain.Repository.ITodoItemRepository1' while attempting to activate 'TlhPlatform.Product.Application.TodoItemService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at AspectCore.Extensions.DependencyInjection.ServiceCollectionBuildExtensions.<>c__DisplayClass6_3.<CreateFactory>b__2(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-23 10:04:42,815 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-23 10:04:42,840 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-23 10:04:43,072 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-23 10:04:43,086 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-23 10:04:43,740 [4] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-23 10:10:26,691 [2] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2020-04-23 10:10:39,802 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-23 10:10:39,820 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-23 10:10:39,827 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-23 10:10:39,830 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-23 10:10:41,269 [10] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-23 10:10:55,359 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] Starting.
+2020-04-23 10:10:55,970 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] Starting.
+2020-04-23 10:10:55,974 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - BuildSqlMap.Child ->> Path :[C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Maps\TodoItem.xml].
+2020-04-23 10:10:56,034 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] End.
+2020-04-23 10:10:56,050 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] End.
+2020-04-23 10:10:56,090 [5] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository] Start
+2020-04-23 10:10:56,139 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Insert->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:10:56,141 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Update->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-23 10:10:56,144 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdate->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-23 10:10:56,147 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Delete->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-23 10:10:56,151 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteById->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-23 10:10:56,152 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntity->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-23 10:10:56,155 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetById->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-23 10:10:56,157 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecord->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:10:56,159 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPage->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:False]
+2020-04-23 10:10:56,163 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Query->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:False]
+2020-04-23 10:10:56,166 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExist->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:10:56,168 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:InsertAsync->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:10:56,170 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:UpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-23 10:10:56,172 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-23 10:10:56,174 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-23 10:10:56,178 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteByIdAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-23 10:10:56,182 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntityAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-23 10:10:56,184 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetByIdAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-23 10:10:56,187 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecordAsync->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:10:56,190 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPageAsync->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:True]
+2020-04-23 10:10:56,193 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryAsync->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:True]
+2020-04-23 10:10:56,196 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExistAsync->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:10:56,223 [5] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository],ImplType.FullName:[TodoItemRepository_Impl_f6df41bdce544869bb14a9891ff43966] End
+2020-04-23 10:10:57,338 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TlhPlatform.Product.Domain.Repository.ITodoItemRepository1' while attempting to activate 'TlhPlatform.Product.Application.TodoItemService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at AspectCore.Extensions.DependencyInjection.ServiceCollectionBuildExtensions.<>c__DisplayClass6_3.<CreateFactory>b__2(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-23 10:12:31,854 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-23 10:12:31,873 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-23 10:12:31,887 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-23 10:12:31,994 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-23 10:12:32,738 [10] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-23 10:12:41,114 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] Starting.
+2020-04-23 10:12:41,224 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] Starting.
+2020-04-23 10:12:41,232 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - BuildSqlMap.Child ->> Path :[C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost\bin\Debug\netcoreapp3.0\Maps\TodoItem.xml].
+2020-04-23 10:12:41,259 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder BuildSqlMap ->> ResourceType:[Directory] , Path :[Maps] End.
+2020-04-23 10:12:41,278 [5] DEBUG SmartSql.ConfigBuilder.XmlConfigBuilder - XmlConfigBuilder Build ->> ResourceType:[File] , Path :[SmartSqlMapConfig.Development.xml] End.
+2020-04-23 10:12:41,313 [5] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository] Start
+2020-04-23 10:12:41,334 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Insert->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:12:41,337 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Update->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-23 10:12:41,340 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdate->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:False]
+2020-04-23 10:12:41,345 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Delete->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-23 10:12:41,350 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteById->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:False]
+2020-04-23 10:12:41,352 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntity->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-23 10:12:41,355 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetById->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:False]
+2020-04-23 10:12:41,357 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecord->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:12:41,362 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPage->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:False]
+2020-04-23 10:12:41,365 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:Query->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:False]
+2020-04-23 10:12:41,367 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExist->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:False]
+2020-04-23 10:12:41,369 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:InsertAsync->Statement:[Scope:TodoItem,Id:Insert,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:12:41,372 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:UpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-23 10:12:41,374 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DyUpdateAsync->Statement:[Scope:TodoItem,Id:Update,Execute:Execute,IsAsync:True]
+2020-04-23 10:12:41,376 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-23 10:12:41,381 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:DeleteByIdAsync->Statement:[Scope:TodoItem,Id:Delete,Execute:Execute,IsAsync:True]
+2020-04-23 10:12:41,384 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetEntityAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-23 10:12:41,386 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetByIdAsync->Statement:[Scope:TodoItem,Id:GetEntity,Execute:QuerySingle,IsAsync:True]
+2020-04-23 10:12:41,388 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:GetRecordAsync->Statement:[Scope:TodoItem,Id:GetRecord,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:12:41,391 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryByPageAsync->Statement:[Scope:TodoItem,Id:QueryByPage,Execute:Query,IsAsync:True]
+2020-04-23 10:12:41,395 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:QueryAsync->Statement:[Scope:TodoItem,Id:Query,Execute:Query,IsAsync:True]
+2020-04-23 10:12:41,397 [5] DEBUG SmartSql.DyRepository.EmitRepositoryBuilder - RepositoryBuilder.BuildMethod:IsExistAsync->Statement:[Scope:TodoItem,Id:IsExist,Execute:ExecuteScalar,IsAsync:True]
+2020-04-23 10:12:41,403 [5] DEBUG SmartSql.DyRepository.RepositoryFactory - RepositoryFactory.CreateInstance :InterfaceType.FullName:[TlhPlatform.Product.Repository.ITodoItemRepository],ImplType.FullName:[TodoItemRepository_Impl_193fc04a68054f979bd937cfaa7f41a4] End
+2020-04-23 10:12:41,440 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TlhPlatform.Product.Domain.Repository.ITodoItemRepository1' while attempting to activate 'TlhPlatform.Product.Application.TodoItemService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at AspectCore.Extensions.DependencyInjection.ServiceCollectionBuildExtensions.<>c__DisplayClass6_3.<CreateFactory>b__2(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-04-23 10:29:13,004 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-04-23 10:29:13,020 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-04-23 10:29:13,026 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-04-23 10:29:13,033 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\Gary_wang\source\repos\Ocelot.TlhPlatformV2\src\Servers\Product\TlhPlatform.Product.ServerHost
+2020-04-23 10:29:16,146 [7] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-04-23 10:29:26,083 [2] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...

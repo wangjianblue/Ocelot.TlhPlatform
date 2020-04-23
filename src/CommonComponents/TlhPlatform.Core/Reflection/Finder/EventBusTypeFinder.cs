@@ -25,10 +25,12 @@ namespace TlhPlatform.Core.Reflection.Finder
 
         protected override Type[] FindAllItems()
         {
-            Type baseType = typeof(IAsyncEventHandler<>); 
+            Type baseType = typeof(IEventHandler);
+            Type baseEventData = typeof(EventData);
             var consumers = AllAssemblyFinder.FindAll(formCache: false).SelectMany(assembly => assembly.GetTypes())
-                .Where(type =>  !type.IsAbstract && !type.IsInterface&& baseType.IsAssignableFrom(type))
-                .ToArray(); 
+                .Where(type =>  !type.IsAbstract&& (baseEventData.IsAssignableFrom(type)|| baseType.IsAssignableFrom(type)))
+                .ToArray();
+            //&& baseType.IsAssignableFrom(type)
 
             return consumers;
            

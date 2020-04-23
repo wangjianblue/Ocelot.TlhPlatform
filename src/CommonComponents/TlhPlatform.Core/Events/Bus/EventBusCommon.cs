@@ -37,6 +37,12 @@ namespace TlhPlatform.Core.Event
         { 
             EventBus.Default.Register(eventType, handler);
         }
+ 
+
+        public static void UnRegisterEvent(Type eventType, IEventHandlerFactory handler)
+        {
+            EventBus.Default.Unregister(eventType, handler);
+        }
         /// <summary>
         /// 触发事件
         /// </summary>

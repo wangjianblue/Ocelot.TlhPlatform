@@ -29,8 +29,7 @@ namespace TlhPlatform.Product.ServerHost.Controllers
     {
 
         public readonly TlhPlatform.Infrastructure.Cache.Key.IKeyManager KeyManager;
-        public readonly ITodoItemService _TodoItemService;
-        private readonly IHttpClientFactory _httpClient;
+        public readonly ITodoItemService _TodoItemService; 
         private readonly IMessageService _messageService;
 
         /// <summary>
@@ -39,11 +38,10 @@ namespace TlhPlatform.Product.ServerHost.Controllers
         /// <param name="keyManager"></param>
         /// <param name="todoItemService"></param>
         /// <param name="httpClient"></param>
-        public TodoController(ITodoItemService todoItemService, TlhPlatform.Infrastructure.Cache.Key.IKeyManager keyManager, IHttpClientFactory httpClient, IMessageService messageService)
+        public TodoController(ITodoItemService todoItemService, TlhPlatform.Infrastructure.Cache.Key.IKeyManager keyManager ,IMessageService messageService)
         {
             _TodoItemService = todoItemService;
-            KeyManager = keyManager;
-            _httpClient = httpClient;
+            KeyManager = keyManager; 
             _messageService = messageService;
         }
         /// <summary>

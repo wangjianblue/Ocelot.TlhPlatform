@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,9 +22,13 @@ namespace TlhPlatform.Core
     public static class ServiceCollectionExtensions
     {
         public static readonly Reflection.ServiceScanOptions options;
+        private static readonly ConcurrentDictionary<Type, List<Type>> _eventAndHandlerMapping;
+
+
         static ServiceCollectionExtensions()
         {
             options = new Reflection.ServiceScanOptions();
+            _eventAndHandlerMapping = new ConcurrentDictionary<Type, List<Type>>();
         }
 
         public static void AddServices(this IServiceCollection service)
@@ -52,17 +57,42 @@ namespace TlhPlatform.Core
         {
             foreach (var consumer in consumers)
             {
-                var ls = consumer.FindInterfaces((type, criteria) =>
+                Type handlerInterface = consumer.GetInterface("IEventHandler`1");
+                if (handlerInterface != null)
                 {
-                    var isMatch = type.IsGenericType &&
-                                  ((Type)criteria).IsAssignableFrom(type.GetGenericTypeDefinition());
-                    return isMatch;
-                }, typeof(IEventHandler<>));
-                IEventHandlerFactory factory = new IocEventHandlerFactory(ls[0]);
-
-                EventBusCommon.RegisterSingleEvent(typeof(IEventHandler<>), factory);
+                    Type eventDataType = handlerInterface.GetGenericArguments()[0];
+                    if (_eventAndHandlerMapping.ContainsKey(eventDataType))
+                    {
+                        List<Type> handlerTypes = _eventAndHandlerMapping[eventDataType];
+                        handlerTypes.Add(consumer);
+                        _eventAndHandlerMapping[eventDataType] = handlerTypes;
+                    }
+                    else
+                    {
+                        var handlerTypes = new List<Type> { consumer };
+                        _eventAndHandlerMapping[eventDataType] = handlerTypes;
+                    } 
+                }  
             }
+
+            if (_eventAndHandlerMapping != null)
+            {
+                foreach (var type in _eventAndHandlerMapping)
+                {
+                    var key = type.Key;
+                    if (type.Value.Count<=0)
+                        continue;
+                    foreach (var itemType in type.Value)
+                    {
+                       // EventBusCommon.RegisterSingleEvent(type.Key,);
+                    }
+                    //EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventEmailHandler>();
+                    //EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSmsHandler>();
+                }
+            }
+
         }
+  
 
         /// <summary>
         /// 以类型实现的接口进行服务添加，需排除

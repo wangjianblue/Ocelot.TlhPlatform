@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using TlhPlatform.Core.Reflection;
 
 namespace TlhPlatform.Core.Event
 {
@@ -6,6 +7,7 @@ namespace TlhPlatform.Core.Event
     /// Defines an interface of a class that handles events asynchrounously of type <see cref="IAsyncEventHandler{TEventData}"/>.
     /// </summary>
     /// <typeparam name="TEventData">Event type to handle</typeparam>
+    [IgnoreDependency]
     public interface IAsyncEventHandler<in TEventData> : IEventHandler
     {
         /// <summary>

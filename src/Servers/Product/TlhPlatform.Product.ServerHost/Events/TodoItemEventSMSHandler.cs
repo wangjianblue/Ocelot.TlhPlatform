@@ -6,13 +6,13 @@ using TlhPlatform.Core.Event;
 
 namespace TlhPlatform.Product.ServerHost.Events
 {
-    public class TodoItemEventSMSHandler : IAsyncEventHandler<TodoItemEventData>, IEventHandler<TodoItemEventData>
+    public class TodoItemEventSmsHandler : IAsyncEventHandler<TodoItemEventData>, IEventHandler<TodoItemEventData>
     {
         public async Task HandleEventAsync(TodoItemEventData eventData)
         {
             await Task.Run(() => { return; });
 
-            Console.WriteLine(typeof(TodoItemEventSMSHandler));
+            Console.WriteLine(typeof(TodoItemEventSmsHandler));
         }
 
         public void HandleEvent(TodoItemEventData eventData)

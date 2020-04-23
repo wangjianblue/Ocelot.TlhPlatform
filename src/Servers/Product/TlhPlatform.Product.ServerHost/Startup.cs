@@ -1,4 +1,5 @@
 using System;
+using System.Net.Http;
 using AspectCore.Configuration;
 using AspectCore.DynamicProxy;
 using AspectCore.Extensions.DependencyInjection;
@@ -53,6 +54,8 @@ namespace TlhPlatform.Product.ServerHost
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
 
+      
+
             #region 注册全局拦截器 
             Action<MvcOptions> filters = new Action<MvcOptions>(r =>
             {
@@ -67,16 +70,26 @@ namespace TlhPlatform.Product.ServerHost
 
             #endregion
 
+            #region Redis 注入
+
             //services.AddRedis(p =>
             //{
             //    p.Configuration = "";
             //    p.InstanceName = "212";
             //});
+
+            #endregion
+
+            #region Redis Key 注入
+
             services.AddCacheKey(p =>
             {
                 p.FileName = "KeyConfigList.xml";
                 p.FilePath = $"{AppDomain.CurrentDomain.SetupInformation.ApplicationBase}Configs\\Cache\\";
             });
+
+
+            #endregion
 
             #region Authorization
 
@@ -85,7 +98,7 @@ namespace TlhPlatform.Product.ServerHost
             #endregion
 
 
-            //#region RabbitMQ
+            #region RabbitMQ
             //var rabbitOptions = Configuration.GetSection("RabbitOptions").Get<RabbitOptions>();
             //var rabbit = services.AddReceives(action =>
             //{
@@ -98,8 +111,7 @@ namespace TlhPlatform.Product.ServerHost
             //rabbit?.Order_Receive1();
             //rabbit?.Order_Receive2();
 
-            //#endregion
-            services.AddTransient<ITodoItemService, TodoItemService>();
+            #endregion
 
             #region Email
             var eMailOptions = Configuration.GetSection("MailInfoData").Get<MailInfoData>(); 
@@ -113,11 +125,15 @@ namespace TlhPlatform.Product.ServerHost
 
             #endregion
 
-
+            #region 事件总线 
             EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventEmailHandler>();
-            EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSMSHandler>();
+            EventBusCommon.RegisterTransientEvent<TodoItemEventData, TodoItemEventSmsHandler>();
+            #endregion 
 
-            //services.AddServices();
+            #region 全局注入  
+            services.AddServices(); 
+            #endregion
+
             #region SmartSql 
             services.AddSmartSql()
                .AddRepositoryFromAssembly(options =>
@@ -142,11 +158,9 @@ namespace TlhPlatform.Product.ServerHost
                 //config.Interceptors.AddTyped<CustomInterceptor>();
             });
 
-            #endregion
+            #endregion 
 
-
-
-            services.AddHttpClient<IUserClient, UserClient>();
+     
         }
 
 
